@@ -1,0 +1,8 @@
+# Local course sources and planning stay out of version control.
+materials/
+plan/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/

@@ -1,0 +1,1194 @@
+[
+  {
+    "slide": 3,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Statistical reasoning supports interpretation of logs, application metrics, AI data, uncertainty, and anomalies.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Statistical reasoning supports interpretation of logs, application metrics, AI data, uncertainty, and anomalies.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:3/shape:2",
+            "quote": "Mengapa Mahasiswa TI Perlu Statistika?"
+          },
+          {
+            "locator": "slide:3/shape:3",
+            "quote": "Statistika adalah fondasi analisis data, machine learning, dan keputusan berbasis data"
+          },
+          {
+            "locator": "slide:3/shape:6",
+            "quote": "Log server, transaksi aplikasi, rating pengguna, dan sensor IoT semuanya berbentuk data."
+          },
+          {
+            "locator": "slide:3/shape:7",
+            "quote": "Dalam TI, statistik bukan sekadar hitung angka, tetapi cara berpikir untuk memahami sistem."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 4,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Data science combines computing, mathematical reasoning, and domain context.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Data science combines computing, mathematical reasoning, and domain context.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:4/shape:2",
+            "quote": "Data Science dalam Perspektif TI"
+          },
+          {
+            "locator": "slide:4/shape:3",
+            "quote": "Irisan antara ilmu komputer, matematika-statistika, dan domain masalah"
+          },
+          {
+            "locator": "slide:4/shape:6",
+            "quote": "Ilmu komputer: algoritma, basis data, pemrograman, dan rekayasa perangkat lunak."
+          },
+          {
+            "locator": "slide:4/shape:7",
+            "quote": "Mahasiswa TI kuat di coding; statistika membuat hasil coding menjadi bermakna."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 5,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "The lecture distinguishes a numerical statistic from the discipline of statistics.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "The lecture distinguishes a numerical statistic from the discipline of statistics.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:5/shape:2",
+            "quote": "Statistik vs Statistika"
+          },
+          {
+            "locator": "slide:5/shape:3",
+            "quote": "Dua istilah yang sering tertukar"
+          },
+          {
+            "locator": "slide:5/shape:6",
+            "quote": "Statistik: angka ringkasan dari data, misalnya rata-rata response time = 240 ms."
+          },
+          {
+            "locator": "slide:5/shape:7",
+            "quote": "Statistik adalah hasil; statistika adalah ilmunya."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 6,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Population, sample, parameter, and sample statistic have different scopes; sampling quality constrains conclusions.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Population, sample, parameter, and sample statistic have different scopes; sampling quality constrains conclusions.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:6/shape:2",
+            "quote": "Populasi dan Sampel"
+          },
+          {
+            "locator": "slide:6/shape:3",
+            "quote": "Dasar penting sebelum menghitung apa pun"
+          },
+          {
+            "locator": "slide:6/shape:6",
+            "quote": "Populasi: seluruh objek yang ingin dikaji, misalnya semua pengguna aplikasi kampus."
+          },
+          {
+            "locator": "slide:6/shape:7",
+            "quote": "Sampel yang buruk menghasilkan kesimpulan yang lemah meskipun rumusnya benar."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 7,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Preserve N/n and population/sample mean definitions; the displayed sample-mean formula conflicts with those definitions.",
+    "issues": [
+      {
+        "original": "𝜇=(∑_(𝑖=1)^(𝑁)(𝑥_(𝑖)))/(𝑁)",
+        "locators": [
+          "slide:7/shape:7"
+        ],
+        "interpretation": "The sample label, definitions, and n=200 example establish sample scope. Preserve the displayed N expression; use x_bar=sum(i=1..n,x_i)/n separately. Why the source expressions conflict is unknown.",
+        "disposition": "resolved-source-discrepancy",
+        "references": [
+          "nist-location"
+        ]
+      }
+    ],
+    "limitations": [],
+    "units": [
+      {
+        "type": "instructor-convention",
+        "statement": "Preserve N/n and population/sample mean definitions; the displayed sample-mean formula conflicts with those definitions.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:7/shape:2",
+            "quote": "Notasi Populasi dan Sampel"
+          },
+          {
+            "locator": "slide:7/shape:3",
+            "quote": "Gunakan notasi sejak awal agar konsisten"
+          },
+          {
+            "locator": "slide:7/shape:6",
+            "quote": "• 𝑁 menyatakan banyak anggota populasi."
+          },
+          {
+            "locator": "slide:7/shape:7",
+            "quote": "Populasi: 𝜇=𝑖=1𝑁𝑥𝑖𝑁"
+          },
+          {
+            "locator": "slide:7/shape:8",
+            "quote": "Contoh TI"
+          },
+          {
+            "locator": "slide:7/shape:9",
+            "quote": "Dari 10.000 log request aplikasi, kita ambil 𝑛 = 200 log. Rata-rata response time sampel x̄ digunakan untuk memperkirakan rata-rata response time populasi 𝜇."
+          },
+          {
+            "locator": "slide:7/shape:10",
+            "quote": "Bedakan N dan n karena interpretasi hasilnya berbeda."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑁",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:7/shape:6",
+            "quote": "𝑁"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑛",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:7/shape:6",
+            "quote": "𝑛"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝜇",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:7/shape:6",
+            "quote": "𝜇"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: accent[̅](𝑥)",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:7/shape:6",
+            "quote": "accent[̅](𝑥)"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝜎²",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:7/shape:6",
+            "quote": "𝜎²"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑠²",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:7/shape:6",
+            "quote": "𝑠²"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝜇=(∑_(𝑖=1)^(𝑁)(𝑥_(𝑖)))/(𝑁)",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:7/shape:7",
+            "quote": "𝜇=(∑_(𝑖=1)^(𝑁)(𝑥_(𝑖)))/(𝑁)"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: accent[̅](𝑥) ",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:7/shape:7",
+            "quote": "accent[̅](𝑥) "
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: (∑_(𝑖=1)^(𝑁)(𝑥_(𝑖)))/(𝑁)",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:7/shape:7",
+            "quote": "(∑_(𝑖=1)^(𝑁)(𝑥_(𝑖)))/(𝑁)"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝑛 = 200",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:7/shape:9",
+            "quote": "𝑛 = 200"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝜇",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:7/shape:9",
+            "quote": "𝜇"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "caveat",
+        "statement": "The sample label, definitions, and n=200 example establish sample scope. Preserve the displayed N expression; use x_bar=sum(i=1..n,x_i)/n separately. Why the source expressions conflict is unknown.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "VERIFIED",
+        "evidence": [
+          {
+            "locator": "slide:7/shape:7",
+            "quote": "𝜇=(∑_(𝑖=1)^(𝑁)(𝑥_(𝑖)))/(𝑁)"
+          }
+        ],
+        "references": [
+          "nist-location"
+        ]
+      }
+    ]
+  },
+  {
+    "slide": 8,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Descriptive statistics summarizes the observed data without automatically generalizing beyond it.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Descriptive statistics summarizes the observed data without automatically generalizing beyond it.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:8/shape:2",
+            "quote": "Statistika Deskriptif"
+          },
+          {
+            "locator": "slide:8/shape:3",
+            "quote": "Meringkas data tanpa membuat generalisasi yang terlalu luas"
+          },
+          {
+            "locator": "slide:8/shape:6",
+            "quote": "Mengumpulkan, mengurutkan, mengelompokkan, dan menyajikan data."
+          },
+          {
+            "locator": "slide:8/shape:7",
+            "quote": "Deskriptif menjawab: “seperti apa data yang kita punya?”"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 9,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Inference generalizes from samples under uncertainty; complete inference procedures are not supplied here.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Inference generalizes from samples under uncertainty; complete inference procedures are not supplied here.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:9/shape:2",
+            "quote": "Statistika Inferensia"
+          },
+          {
+            "locator": "slide:9/shape:3",
+            "quote": "Menarik kesimpulan tentang populasi berdasarkan sampel"
+          },
+          {
+            "locator": "slide:9/shape:6",
+            "quote": "Menggunakan sampel untuk menduga parameter populasi."
+          },
+          {
+            "locator": "slide:9/shape:7",
+            "quote": "Inferensia menjawab: “apa yang dapat kita simpulkan dari sampel?”"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 10,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Define the question, collect and document data, clean it, summarize it, then interpret the result in context.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "procedural",
+        "statement": "Define the question, collect and document data, clean it, summarize it, then interpret the result in context.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:10/shape:2",
+            "quote": "Alur Kerja Analisis Data untuk TI"
+          },
+          {
+            "locator": "slide:10/shape:3",
+            "quote": "Dari data mentah menuju keputusan"
+          },
+          {
+            "locator": "slide:10/shape:6",
+            "quote": "1. Definisikan masalah: apa yang ingin diketahui?"
+          },
+          {
+            "locator": "slide:10/shape:7",
+            "quote": "Rumus hanya berguna jika pertanyaan dan datanya jelas."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 11,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Identify the data representation and variable type before selecting an analysis.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Identify the data representation and variable type before selecting an analysis.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:11/shape:2",
+            "quote": "Apa Itu Data?"
+          },
+          {
+            "locator": "slide:11/shape:3",
+            "quote": "Data adalah informasi yang dapat dianalisis"
+          },
+          {
+            "locator": "slide:11/shape:6",
+            "quote": "Data dapat berupa angka, teks, kategori, tanggal, lokasi, citra, audio, atau log aktivitas."
+          },
+          {
+            "locator": "slide:11/shape:7",
+            "quote": "Jenis data menentukan jenis grafik, ringkasan, dan model yang tepat."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 12,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Distinguish qualitative categories from quantitative values and avoid averaging arbitrary category codes.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Distinguish qualitative categories from quantitative values and avoid averaging arbitrary category codes.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:12/shape:2",
+            "quote": "Data Kualitatif dan Kuantitatif"
+          },
+          {
+            "locator": "slide:12/shape:3",
+            "quote": "Pembagian paling dasar"
+          },
+          {
+            "locator": "slide:12/shape:6",
+            "quote": "Data kualitatif menjelaskan kategori atau sifat objek."
+          },
+          {
+            "locator": "slide:12/shape:7",
+            "quote": "Jangan menghitung rata-rata untuk kategori yang tidak bermakna numerik."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 13,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Nominal categories lack an intrinsic order; summarize them with counts, proportions, or modes.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Nominal categories lack an intrinsic order; summarize them with counts, proportions, or modes.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:13/shape:2",
+            "quote": "Data Nominal"
+          },
+          {
+            "locator": "slide:13/shape:3",
+            "quote": "Kategori tanpa urutan alami"
+          },
+          {
+            "locator": "slide:13/shape:6",
+            "quote": "Contoh umum: jenis kelamin, jurusan, kota, browser, sistem operasi."
+          },
+          {
+            "locator": "slide:13/shape:7",
+            "quote": "Nominal menjawab: “termasuk kategori apa?”"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 14,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Browser, transaction status, and user role illustrate nominal variables in application data.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Browser, transaction status, and user role illustrate nominal variables in application data.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:14/shape:2",
+            "quote": "Contoh Nominal di Teknik Informatika"
+          },
+          {
+            "locator": "slide:14/shape:3",
+            "quote": "Data kategori dari sistem aplikasi"
+          },
+          {
+            "locator": "slide:14/shape:6",
+            "quote": "Kolom browser: Chrome, Firefox, Edge, Safari."
+          },
+          {
+            "locator": "slide:14/shape:7",
+            "quote": "Untuk data nominal, frekuensi lebih informatif daripada rata-rata."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 15,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Ordinal values are ordered but equal numerical spacing is not guaranteed; averaging requires additional justification.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Ordinal values are ordered but equal numerical spacing is not guaranteed; averaging requires additional justification.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:15/shape:2",
+            "quote": "Data Ordinal"
+          },
+          {
+            "locator": "slide:15/shape:3",
+            "quote": "Kategori yang memiliki urutan"
+          },
+          {
+            "locator": "slide:15/shape:6",
+            "quote": "Contoh: tingkat kepuasan 1–5, level prioritas bug, grade performa server."
+          },
+          {
+            "locator": "slide:15/shape:7",
+            "quote": "Ordinal menjawab: “kategori mana yang lebih tinggi atau lebih rendah?”"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 16,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Ratings, bug priorities, and security risk levels illustrate ordinal interpretations.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Ratings, bug priorities, and security risk levels illustrate ordinal interpretations.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:16/shape:2",
+            "quote": "Contoh Ordinal di Aplikasi"
+          },
+          {
+            "locator": "slide:16/shape:3",
+            "quote": "Rating pengguna dan prioritas bug"
+          },
+          {
+            "locator": "slide:16/shape:6",
+            "quote": "Rating aplikasi: 1 = sangat buruk sampai 5 = sangat baik."
+          },
+          {
+            "locator": "slide:16/shape:7",
+            "quote": "Urutan penting, tetapi beda antara 1 dan 2 belum tentu sama dengan beda 4 dan 5."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 17,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Discrete variables arise from counts; references to probability models are mentions, not full imported model procedures.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Discrete variables arise from counts; references to probability models are mentions, not full imported model procedures.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:17/shape:2",
+            "quote": "Data Diskrit"
+          },
+          {
+            "locator": "slide:17/shape:3",
+            "quote": "Data numerik hasil pencacahan"
+          },
+          {
+            "locator": "slide:17/shape:6",
+            "quote": "Didapat dari proses menghitung, biasanya berupa bilangan bulat."
+          },
+          {
+            "locator": "slide:17/shape:7",
+            "quote": "Diskrit menjawab: “berapa banyak?”"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 18,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Failed requests per minute are counts even when their arithmetic average is fractional.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Failed requests per minute are counts even when their arithmetic average is fractional.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:18/shape:2",
+            "quote": "Contoh Diskrit di Log Server"
+          },
+          {
+            "locator": "slide:18/shape:3",
+            "quote": "Jumlah request gagal per menit"
+          },
+          {
+            "locator": "slide:18/shape:6",
+            "quote": "Menit 1: 2 gagal, menit 2: 0 gagal, menit 3: 4 gagal."
+          },
+          {
+            "locator": "slide:18/shape:7",
+            "quote": "Data hitungan sering menjadi indikator stabilitas sistem."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 19,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Continuous measurement variables can take values along a scale; representation precision does not define their mathematical scope.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Continuous measurement variables can take values along a scale; representation precision does not define their mathematical scope.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:19/shape:2",
+            "quote": "Data Kontinu"
+          },
+          {
+            "locator": "slide:19/shape:3",
+            "quote": "Data numerik hasil pengukuran"
+          },
+          {
+            "locator": "slide:19/shape:6",
+            "quote": "Didapat dari proses mengukur, nilainya dapat berada pada rentang kontinu."
+          },
+          {
+            "locator": "slide:19/shape:7",
+            "quote": "Kontinu menjawab: “berapa besar ukurannya?”"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 20,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Interval scales have meaningful differences but no absolute zero; ratios of Celsius readings are not temperature ratios.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Interval scales have meaningful differences but no absolute zero; ratios of Celsius readings are not temperature ratios.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:20/shape:2",
+            "quote": "Data Interval"
+          },
+          {
+            "locator": "slide:20/shape:3",
+            "quote": "Jarak bermakna, tetapi nol bukan nol absolut"
+          },
+          {
+            "locator": "slide:20/shape:6",
+            "quote": "Contoh klasik: suhu Celsius dan Fahrenheit."
+          },
+          {
+            "locator": "slide:20/shape:7",
+            "quote": "Interval memiliki jarak yang konsisten, tetapi tidak punya nol absolut."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 21,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Ratio measurements support comparisons relative to a meaningful zero.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Ratio measurements support comparisons relative to a meaningful zero.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:21/shape:2",
+            "quote": "Data Rasio"
+          },
+          {
+            "locator": "slide:21/shape:3",
+            "quote": "Jarak bermakna dan memiliki nol absolut"
+          },
+          {
+            "locator": "slide:21/shape:6",
+            "quote": "Contoh TI: durasi proses, ukuran file, bandwidth, response time, jumlah memori."
+          },
+          {
+            "locator": "slide:21/shape:7",
+            "quote": "Rasio adalah skala paling kaya untuk analisis numerik."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 22,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Match operations and summaries to nominal, ordinal, interval, or ratio scale.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "procedural",
+        "statement": "Match operations and summaries to nominal, ordinal, interval, or ratio scale.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:22/shape:2",
+            "quote": "Ringkasan Skala Data"
+          },
+          {
+            "locator": "slide:22/shape:3",
+            "quote": "Pilih metode sesuai skala data"
+          },
+          {
+            "locator": "slide:22/shape:6",
+            "quote": "Nominal: kategori setara, gunakan frekuensi dan modus."
+          },
+          {
+            "locator": "slide:22/shape:7",
+            "quote": "Kesalahan memilih skala data sering menyebabkan interpretasi statistik keliru."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 23,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Primary versus secondary status depends on who collected data for which purpose; log files are not inherently secondary in every study.",
+    "issues": [],
+    "limitations": [
+      "Primary/secondary origin is study-relative; source examples do not establish a real user dataset's origin."
+    ],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Primary versus secondary status depends on who collected data for which purpose; log files are not inherently secondary in every study.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:23/shape:2",
+            "quote": "Klasifikasi Data Berdasarkan Sumber"
+          },
+          {
+            "locator": "slide:23/shape:3",
+            "quote": "Data primer dan sekunder"
+          },
+          {
+            "locator": "slide:23/shape:6",
+            "quote": "Data primer: dikumpulkan langsung oleh peneliti atau tim pengembang."
+          },
+          {
+            "locator": "slide:23/shape:7",
+            "quote": "Sumber data memengaruhi kontrol kualitas dan bias data."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 24,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "A census covers the specified population; sampling observes a subset whose selection matters.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "A census covers the specified population; sampling observes a subset whose selection matters.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:24/shape:2",
+            "quote": "Klasifikasi Berdasarkan Cara Memperoleh"
+          },
+          {
+            "locator": "slide:24/shape:3",
+            "quote": "Sensus dan sampling"
+          },
+          {
+            "locator": "slide:24/shape:6",
+            "quote": "Sensus: mengamati seluruh anggota populasi."
+          },
+          {
+            "locator": "slide:24/shape:7",
+            "quote": "Pada big data, sampel kecil yang baik sering lebih berguna daripada data besar yang bias."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 25,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Distinguish cross-sectional observations from time-ordered series when selecting plots and analyses.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Distinguish cross-sectional observations from time-ordered series when selecting plots and analyses.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:25/shape:2",
+            "quote": "Klasifikasi Berdasarkan Waktu"
+          },
+          {
+            "locator": "slide:25/shape:3",
+            "quote": "Cross-section dan time series"
+          },
+          {
+            "locator": "slide:25/shape:6",
+            "quote": "Cross-section: data banyak objek pada satu waktu tertentu."
+          },
+          {
+            "locator": "slide:25/shape:7",
+            "quote": "Jenis waktu menentukan grafik dan metode analisis yang cocok."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 26,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Document cleaning, missingness, duplicates, formats, and units before treating raw data as analysis-ready.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "procedural",
+        "statement": "Document cleaning, missingness, duplicates, formats, and units before treating raw data as analysis-ready.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:26/shape:2",
+            "quote": "Data Mentah dan Data Siap Analisis"
+          },
+          {
+            "locator": "slide:26/shape:3",
+            "quote": "Jangan langsung percaya data mentah"
+          },
+          {
+            "locator": "slide:26/shape:6",
+            "quote": "Data mentah belum tentu rapi, lengkap, atau konsisten."
+          },
+          {
+            "locator": "slide:26/shape:7",
+            "quote": "Statistika yang baik dimulai dari data yang bersih dan terdokumentasi."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 27,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Check missing values, duplicate records, units, outliers, and the observation period.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "procedural",
+        "statement": "Check missing values, duplicate records, units, outliers, and the observation period.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:27/shape:2",
+            "quote": "Data Quality Check"
+          },
+          {
+            "locator": "slide:27/shape:3",
+            "quote": "Pertanyaan wajib sebelum analisis"
+          },
+          {
+            "locator": "slide:27/shape:6",
+            "quote": "Apakah ada nilai kosong atau format tidak konsisten?"
+          },
+          {
+            "locator": "slide:27/shape:7",
+            "quote": "Kualitas data menentukan kualitas keputusan."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 28,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Storage formats influence access and preparation; the slide's technology examples are contextual guidance rather than universal selection rules.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Storage formats influence access and preparation; the slide's technology examples are contextual guidance rather than universal selection rules.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:28/shape:2",
+            "quote": "Teknik Penyimpanan Data Mahasiswa TI"
+          },
+          {
+            "locator": "slide:28/shape:3",
+            "quote": "Statistika bertemu basis data"
+          },
+          {
+            "locator": "slide:28/shape:6",
+            "quote": "CSV atau spreadsheet: cocok untuk data kecil dan latihan kelas."
+          },
+          {
+            "locator": "slide:28/shape:7",
+            "quote": "Format penyimpanan menentukan cara data dipanggil, dibersihkan, dan dianalisis."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 70,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Missingness is a data-quality issue; 35 missing ratings out of 1000 correspond to 3.5 percent.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Missingness is a data-quality issue; 35 missing ratings out of 1000 correspond to 3.5 percent.",
+        "concepts": [
+          "data-foundations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:70/shape:2",
+            "quote": "Missing Value Rate"
+          },
+          {
+            "locator": "slide:70/shape:3",
+            "quote": "Kualitas data sebelum analisis"
+          },
+          {
+            "locator": "slide:70/shape:6",
+            "quote": "• Missing value adalah data kosong atau tidak terekam."
+          },
+          {
+            "locator": "slide:70/shape:7",
+            "quote": "Missing rate = (jumlah missing / total baris) × 100%"
+          },
+          {
+            "locator": "slide:70/shape:8",
+            "quote": "Contoh"
+          },
+          {
+            "locator": "slide:70/shape:9",
+            "quote": "Kolom rating memiliki 35 nilai kosong dari 1.000 baris. Missing rate = 3,5%."
+          },
+          {
+            "locator": "slide:70/shape:10",
+            "quote": "Missing value adalah masalah data sekaligus masalah proses bisnis/sistem."
+          }
+        ],
+        "references": []
+      }
+    ]
+  }
+]

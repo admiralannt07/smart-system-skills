@@ -1,0 +1,762 @@
+[
+  {
+    "slide": 40,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Counting unordered membership removes differences due solely to order.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Counting unordered membership removes differences due solely to order.",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:40/shape:708",
+            "quote": "\tKETIKA ANGGOTA SAJA YANG PENTING"
+          },
+          {
+            "locator": "slide:40/shape:712",
+            "quote": "\tTEMA 4  /  KOMBINASI"
+          },
+          {
+            "locator": "slide:40/shape:713",
+            "quote": "\tJika kelompok A dan B sama dengan B dan A, mengapa dihitung dua kali?"
+          },
+          {
+            "locator": "slide:40/shape:714",
+            "quote": "\tMenghitung pemilihan tanpa memperhatikan urutan."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 41,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Selecting two people from five without roles gives ten teams.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "exercise",
+        "statement": "Selecting two people from five without roles gives ten teams.",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:41/shape:717",
+            "quote": "\tTebak-tebakan : Tim tanpa jabatan"
+          },
+          {
+            "locator": "slide:41/shape:719",
+            "quote": "\tTEMA 4  /  KOMBINASI"
+          },
+          {
+            "locator": "slide:41/shape:723",
+            "quote": "\tTEBAK DULU"
+          },
+          {
+            "locator": "slide:41/shape:724",
+            "quote": "\tAda 5 mahasiswa. Dosen memilih tepat 2 mahasiswa untuk menjadi satu tim tanpa membagi jabatan. Berapa tim berbeda?"
+          },
+          {
+            "locator": "slide:41/shape:726",
+            "quote": "\tPETUNJUK"
+          },
+          {
+            "locator": "slide:41/shape:727",
+            "quote": "\tA. 5 tim"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 42,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Listing ten unique two-person subsets avoids counting reversed pairs twice.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Listing ten unique two-person subsets avoids counting reversed pairs twice.",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:42/shape:730",
+            "quote": "\tBuktikan bahwa AB = BA"
+          },
+          {
+            "locator": "slide:42/shape:732",
+            "quote": "\tTEMA 4  /  KOMBINASI"
+          },
+          {
+            "locator": "slide:42/shape:737",
+            "quote": "\t1"
+          },
+          {
+            "locator": "slide:42/shape:738",
+            "quote": "\tMisalkan mahasiswa A, B, C, D, E."
+          },
+          {
+            "locator": "slide:42/shape:741",
+            "quote": "\t2"
+          },
+          {
+            "locator": "slide:42/shape:742",
+            "quote": "\tTim AB sama dengan BA; begitu pula AC sama dengan CA."
+          },
+          {
+            "locator": "slide:42/shape:745",
+            "quote": "\t3"
+          },
+          {
+            "locator": "slide:42/shape:746",
+            "quote": "\tDaftar kelompok unik: AB AC AD AE BC BD BE CD CE DE."
+          },
+          {
+            "locator": "slide:42/shape:749",
+            "quote": "\t4"
+          },
+          {
+            "locator": "slide:42/shape:750",
+            "quote": "\tJadi 10 kelompok, bukan 20 susunan terurut."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 43,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Native combination math has the usual n!/(r!(n-r)!) structure, but its cached image appears to include a conflicting inner factorial.",
+    "issues": [
+      {
+        "original": "𝑪(𝒏,𝒓)= (𝒏!)/((𝒓!(𝒏−𝒓)!))",
+        "locators": [
+          "slide:43/shape:759"
+        ],
+        "interpretation": "Current native OMML and the fully inspected LibreOffice render agree on n!/(r!(n-r)!). The cached PNG contains a differing inner-factorial variant. Preserve both and use the independently verified native formula operationally. This observation establishes LibreOffice rendering, not identical PowerPoint display.",
+        "disposition": "resolved-source-discrepancy",
+        "references": [
+          "openstax-counting"
+        ]
+      }
+    ],
+    "limitations": [],
+    "units": [
+      {
+        "type": "formula",
+        "statement": "Native combination math has the usual n!/(r!(n-r)!) structure, but its cached image appears to include a conflicting inner factorial.",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:43/shape:753",
+            "quote": "\tDefinisi: kombinasi tanpa pengulangan"
+          },
+          {
+            "locator": "slide:43/shape:755",
+            "quote": "\tTEMA 4  /  KOMBINASI"
+          },
+          {
+            "locator": "slide:43/shape:759",
+            "quote": "\t𝑪𝒏,𝒓= 𝒏!(𝒓!𝒏−𝒓!)"
+          },
+          {
+            "locator": "slide:43/shape:761",
+            "quote": "\tDEFINISI"
+          },
+          {
+            "locator": "slide:43/shape:762",
+            "quote": "\tKombinasi 𝑟 dari 𝑛 objek berbeda adalah banyak kelompok berisi r objek yang dipilih tanpa memperhatikan urutan."
+          },
+          {
+            "locator": "slide:43/shape:764",
+            "quote": "\tKAPAN DIPAKAI?"
+          },
+          {
+            "locator": "slide:43/shape:765",
+            "quote": "\tPakai ketika anggota tim atau himpunan fitur yang dipilih lebih penting daripada urutan anggota."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝑪(𝒏,𝒓)= (𝒏!)/((𝒓!(𝒏−𝒓)!))",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:43/shape:759",
+            "quote": "𝑪(𝒏,𝒓)= (𝒏!)/((𝒓!(𝒏−𝒓)!))"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑟",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:43/shape:762",
+            "quote": "𝑟"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑛",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:43/shape:762",
+            "quote": "𝑛"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "caveat",
+        "statement": "Current native OMML and the fully inspected LibreOffice render agree on n!/(r!(n-r)!). The cached PNG contains a differing inner-factorial variant. Preserve both and use the independently verified native formula operationally. This observation establishes LibreOffice rendering, not identical PowerPoint display.",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "VERIFIED",
+        "evidence": [
+          {
+            "locator": "slide:43/shape:759",
+            "quote": "𝑪(𝒏,𝒓)= (𝒏!)/((𝒓!(𝒏−𝒓)!))"
+          }
+        ],
+        "references": [
+          "openstax-counting"
+        ]
+      }
+    ]
+  },
+  {
+    "slide": 44,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Divide ordered selections by r! when every unordered subset has r! distinct orders.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "formula",
+        "statement": "Divide ordered selections by r! when every unordered subset has r! distinct orders.",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:44/shape:768",
+            "quote": "\tMengapa rumus dibagi 𝒓!?"
+          },
+          {
+            "locator": "slide:44/shape:770",
+            "quote": "\tTEMA 4  /  KOMBINASI"
+          },
+          {
+            "locator": "slide:44/shape:774",
+            "quote": "\t𝑪𝒏,𝒓=𝑷𝒏,𝒓𝒓!"
+          },
+          {
+            "locator": "slide:44/shape:776",
+            "quote": "\tDEFINISI"
+          },
+          {
+            "locator": "slide:44/shape:777",
+            "quote": "\tSetiap kelompok yang sama muncul 𝑟! kali bila semua urutannya dihitung sebagai permutasi."
+          },
+          {
+            "locator": "slide:44/shape:780",
+            "quote": "\tContoh: 𝑃(5,2)=20 urutan, tetapi satu pasangan muncul 2!=2 kali. Karena itu 𝐶(5,2)=10."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝒓!",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:44/shape:768",
+            "quote": "𝒓!"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝑪(𝒏,𝒓)=(𝑷(𝒏,𝒓))/(𝒓!)",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:44/shape:774",
+            "quote": "𝑪(𝒏,𝒓)=(𝑷(𝒏,𝒓))/(𝒓!)"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑟!",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:44/shape:777",
+            "quote": "𝑟!"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝑃(5,2)=20 ",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:44/shape:780",
+            "quote": "𝑃(5,2)=20 "
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 2!=2",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:44/shape:780",
+            "quote": "2!=2"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝐶(5,2)=10",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:44/shape:780",
+            "quote": "𝐶(5,2)=10"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 45,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Selecting three distinct dishes from six without order yields twenty menus.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Selecting three distinct dishes from six without order yields twenty menus.",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:45/shape:783",
+            "quote": "\tContoh harian: Memilih tiga lauk"
+          },
+          {
+            "locator": "slide:45/shape:785",
+            "quote": "\tTEMA 4  /  KOMBINASI"
+          },
+          {
+            "locator": "slide:45/shape:789",
+            "quote": "\t6 LAUK PILIH 3"
+          },
+          {
+            "locator": "slide:45/shape:790",
+            "quote": "\t20 paket"
+          },
+          {
+            "locator": "slide:45/shape:791",
+            "quote": "\tTanpa urutan dan tanpa memilih lauk sama berulang: C(6,3) = 6!/(3!3!) = 20."
+          },
+          {
+            "locator": "slide:45/shape:793",
+            "quote": "\tMakna: urutan saat menyebut lauk tidak membuat paket makanan yang baru."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 46,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Selecting three features from six yields twenty candidate subsets, not a recommendation about their product value.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Selecting three features from six yields twenty candidate subsets, not a recommendation about their product value.",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:46/shape:796",
+            "quote": "\tContoh TI: Memilih fitur aplikasi"
+          },
+          {
+            "locator": "slide:46/shape:798",
+            "quote": "\tTEMA 4  /  KOMBINASI"
+          },
+          {
+            "locator": "slide:46/shape:802",
+            "quote": "\t6 FITUR PILIH 3"
+          },
+          {
+            "locator": "slide:46/shape:803",
+            "quote": "\t20 kelompok"
+          },
+          {
+            "locator": "slide:46/shape:804",
+            "quote": "\tDari 6 fitur kandidat, pilih 3 fitur tahap awal: C(6,3)=20 pilihan kelompok."
+          },
+          {
+            "locator": "slide:46/shape:806",
+            "quote": "\tMakna: angka 20 mengukur banyak shortlist; tidak menunjukkan kombinasi mana yang paling bermanfaat. Perlu biaya, dampak pengguna, dan dependensi."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 47,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Selecting two audit modules from five yields ten groups; risk assessment chooses among them.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Selecting two audit modules from five yields ten groups; risk assessment chooses among them.",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:47/shape:809",
+            "quote": "\tContoh TI: Audit keamanan kode"
+          },
+          {
+            "locator": "slide:47/shape:811",
+            "quote": "\tTEMA 4  /  KOMBINASI"
+          },
+          {
+            "locator": "slide:47/shape:815",
+            "quote": "\tHITUNG PILIHAN"
+          },
+          {
+            "locator": "slide:47/shape:816",
+            "quote": "\tAda 5 modul aplikasi dan waktu untuk memeriksa 2. Kelompok audit yang mungkin = C(5,2) = 10."
+          },
+          {
+            "locator": "slide:47/shape:818",
+            "quote": "\tAMBIL KEPUTUSAN"
+          },
+          {
+            "locator": "slide:47/shape:819",
+            "quote": "\tJika risiko tiap modul berbeda, jangan memilih acak hanya karena ada 10 kelompok. Dahulukan modul berisiko tinggi."
+          },
+          {
+            "locator": "slide:47/shape:821",
+            "quote": "\tKombinasi menghitung alternatif; penilaian risiko memilih alternatif."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 48,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Feature dependencies can invalidate subsets, so an unconstrained binomial coefficient can overcount feasible selections.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "caveat",
+        "statement": "Feature dependencies can invalidate subsets, so an unconstrained binomial coefficient can overcount feasible selections.",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:48/shape:824",
+            "quote": "\tTidak semua kelompok fitur layak"
+          },
+          {
+            "locator": "slide:48/shape:826",
+            "quote": "\tTEMA 4  /  KOMBINASI"
+          },
+          {
+            "locator": "slide:48/shape:830",
+            "quote": "\tASUMSI MATEMATIS"
+          },
+          {
+            "locator": "slide:48/shape:831",
+            "quote": "\tC(6,3)=20 hanya jika semua pemilihan 3 dari 6 fitur diizinkan."
+          },
+          {
+            "locator": "slide:48/shape:833",
+            "quote": "\tKENDALA PRODUK"
+          },
+          {
+            "locator": "slide:48/shape:834",
+            "quote": "\tJika fitur pembayaran wajib bergantung pada login, subset pembayaran tanpa login tidak sah. Evaluasi constraint sebelum memilih."
+          },
+          {
+            "locator": "slide:48/shape:836",
+            "quote": "\tDalam analisis keputusan, kendala sistem sama penting dengan banyak kemungkinan."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 49,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Unordered selections of snacks, features, and audit modules use distinct n and r values.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "exercise",
+        "statement": "Unordered selections of snacks, features, and audit modules use distinct n and r values.",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:49/shape:839",
+            "quote": "\tLatihan Tema 4: Tiga soal"
+          },
+          {
+            "locator": "slide:49/shape:841",
+            "quote": "\tTEMA 4  /  KOMBINASI"
+          },
+          {
+            "locator": "slide:49/shape:845",
+            "quote": "\tKERJAKAN BERPASANGAN"
+          },
+          {
+            "locator": "slide:49/shape:848",
+            "quote": "\t1"
+          },
+          {
+            "locator": "slide:49/shape:849",
+            "quote": "\tDari 5 jenis camilan dipilih 2 jenis berbeda tanpa urutan. Berapa hasilnya?"
+          },
+          {
+            "locator": "slide:49/shape:852",
+            "quote": "\t2"
+          },
+          {
+            "locator": "slide:49/shape:853",
+            "quote": "\tAda 7 fitur kandidat, akan dipilih 3. Berapa shortlist?"
+          },
+          {
+            "locator": "slide:49/shape:856",
+            "quote": "\t3"
+          },
+          {
+            "locator": "slide:49/shape:857",
+            "quote": "\tAda 6 modul, akan diaudit 2 modul berbeda. Berapa pasangan audit?"
+          },
+          {
+            "locator": "slide:49/shape:858",
+            "quote": "\tTuliskan: apa yang dihitung, aturan yang dipakai, dan alasannya."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 50,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "The source solutions give ten snack pairs, 35 feature groups, and fifteen audit pairs.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "The source solutions give ten snack pairs, 35 feature groups, and fifteen audit pairs.",
+        "concepts": [
+          "combinations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:50/shape:861",
+            "quote": "\tPembahasan Tema 4"
+          },
+          {
+            "locator": "slide:50/shape:863",
+            "quote": "\tTEMA 4  /  KOMBINASI"
+          },
+          {
+            "locator": "slide:50/shape:867",
+            "quote": "\t1."
+          },
+          {
+            "locator": "slide:50/shape:868",
+            "quote": "\tC(5,2) = 5×4 / 2×1 = 10 pasangan."
+          },
+          {
+            "locator": "slide:50/shape:870",
+            "quote": "\t2."
+          },
+          {
+            "locator": "slide:50/shape:871",
+            "quote": "\tC(7,3) = 7×6×5 / (3×2×1) = 35 kelompok."
+          },
+          {
+            "locator": "slide:50/shape:873",
+            "quote": "\t3."
+          },
+          {
+            "locator": "slide:50/shape:874",
+            "quote": "\tC(6,2) = 6×5 / (2×1) = 15 pasangan. Pemilihan nyata perlu skor risiko."
+          },
+          {
+            "locator": "slide:50/shape:875",
+            "quote": "\tJangan hanya menghafal hasil: pahami model dan asumsi di belakangnya."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 51,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Define one outcome, enumerate the space, then select multiplication, permutation, or combination from the task structure.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "procedural",
+        "statement": "Define one outcome, enumerate the space, then select multiplication, permutation, or combination from the task structure.",
+        "concepts": [
+          "counting-principles"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:51/shape:878",
+            "quote": "\tTugas"
+          },
+          {
+            "locator": "slide:51/shape:885",
+            "quote": "\t1"
+          },
+          {
+            "locator": "slide:51/shape:886",
+            "quote": "\tDefinisikan satu hasil atau satu objek yang akan dihitung kemungkinan kejadiannya."
+          },
+          {
+            "locator": "slide:51/shape:889",
+            "quote": "\t2"
+          },
+          {
+            "locator": "slide:51/shape:890",
+            "quote": "\tDAFTAR hasil yang mungkin → ruang sampel Ω."
+          },
+          {
+            "locator": "slide:51/shape:893",
+            "quote": "\t3"
+          },
+          {
+            "locator": "slide:51/shape:894",
+            "quote": "\tJika membangun pilihan secara BERTAHAP → aturan perkalian."
+          },
+          {
+            "locator": "slide:51/shape:897",
+            "quote": "\t4"
+          },
+          {
+            "locator": "slide:51/shape:898",
+            "quote": "\tJika memilih objek dan memperhatikan URUTAN → P(n,r)."
+          },
+          {
+            "locator": "slide:51/shape:901",
+            "quote": "\t5"
+          },
+          {
+            "locator": "slide:51/shape:902",
+            "quote": "\tJika memilih kelompok dan tidak memperhatikan URUTAN → C(n,r)."
+          }
+        ],
+        "references": []
+      }
+    ]
+  }
+]

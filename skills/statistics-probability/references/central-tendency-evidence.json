@@ -1,0 +1,911 @@
+[
+  {
+    "slide": 40,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Mean, median, and mode describe different aspects of center and need distributional context.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Mean, median, and mode describe different aspects of center and need distributional context.",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:40/shape:2",
+            "quote": "Ukuran Pemusatan Data"
+          },
+          {
+            "locator": "slide:40/shape:3",
+            "quote": "Mewakili pusat dari sekumpulan data"
+          },
+          {
+            "locator": "slide:40/shape:6",
+            "quote": "Mean: rata-rata aritmetika."
+          },
+          {
+            "locator": "slide:40/shape:7",
+            "quote": "Jangan hanya memakai mean tanpa melihat bentuk sebaran data."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 41,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Compute arithmetic mean from observations; the expanded source expression uses superscripts where its summation uses observation subscripts.",
+    "issues": [
+      {
+        "original": "accent[̄](𝑥)=((𝑥^(1)+ 𝑥^(2)+ ⋯ + 𝑥ₙ))/(𝑛)=(∑_(𝑖=1)^(𝑛)(𝑥_(𝑖)))/(𝑛)",
+        "locators": [
+          "slide:41/shape:7"
+        ],
+        "interpretation": "Native OMML and its image use superscripts in the expanded observation sum, but the same source equation uses observation subscripts in the summation. Use the sum of indexed observations divided by their count; do not interpret the expansion as powers of one common x.",
+        "disposition": "resolved-source-discrepancy",
+        "references": [
+          "nist-location"
+        ]
+      }
+    ],
+    "limitations": [],
+    "units": [
+      {
+        "type": "procedural",
+        "statement": "Compute arithmetic mean from observations; the expanded source expression uses superscripts where its summation uses observation subscripts.",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:41/shape:2",
+            "quote": "Mean Data Tunggal"
+          },
+          {
+            "locator": "slide:41/shape:3",
+            "quote": "Rata-rata untuk data tidak berkelompok"
+          },
+          {
+            "locator": "slide:41/shape:6",
+            "quote": "Jumlahkan semua nilai."
+          },
+          {
+            "locator": "slide:41/shape:7",
+            "quote": "𝑥=𝑥1+ 𝑥2+ ⋯ + 𝑥ₙ𝑛=𝑖=1𝑛𝑥𝑖𝑛"
+          },
+          {
+            "locator": "slide:41/shape:10",
+            "quote": "Mean memberi gambaran pusat, tetapi harus diperiksa bersama sebarannya."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: accent[̄](𝑥)=((𝑥^(1)+ 𝑥^(2)+ ⋯ + 𝑥ₙ))/(𝑛)=(∑_(𝑖=1)^(𝑛)(𝑥_(𝑖)))/(𝑛)",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:41/shape:7",
+            "quote": "accent[̄](𝑥)=((𝑥^(1)+ 𝑥^(2)+ ⋯ + 𝑥ₙ))/(𝑛)=(∑_(𝑖=1)^(𝑛)(𝑥_(𝑖)))/(𝑛)"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "caveat",
+        "statement": "Native OMML and its image use superscripts in the expanded observation sum, but the same source equation uses observation subscripts in the summation. Use the sum of indexed observations divided by their count; do not interpret the expansion as powers of one common x.",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "VERIFIED",
+        "evidence": [
+          {
+            "locator": "slide:41/shape:7",
+            "quote": "accent[̄](𝑥)=((𝑥^(1)+ 𝑥^(2)+ ⋯ + 𝑥ₙ))/(𝑛)=(∑_(𝑖=1)^(𝑛)(𝑥_(𝑖)))/(𝑛)"
+          }
+        ],
+        "references": [
+          "nist-location"
+        ]
+      }
+    ]
+  },
+  {
+    "slide": 42,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Estimate a grouped mean using class midpoints and frequencies; preserve the approximation caveat.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "procedural",
+        "statement": "Estimate a grouped mean using class midpoints and frequencies; preserve the approximation caveat.",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:42/shape:2",
+            "quote": "Mean Data Berkelompok"
+          },
+          {
+            "locator": "slide:42/shape:3",
+            "quote": "Gunakan titik tengah kelas"
+          },
+          {
+            "locator": "slide:42/shape:6",
+            "quote": "Tentukan titik tengah tiap kelas 𝑥ᵢ."
+          },
+          {
+            "locator": "slide:42/shape:7",
+            "quote": "𝑥=Σ 𝑓ᵢ𝑥ᵢ(Σ 𝑓ᵢ)"
+          },
+          {
+            "locator": "slide:42/shape:8",
+            "quote": "Contoh"
+          },
+          {
+            "locator": "slide:42/shape:9",
+            "quote": "Kelas response time 100–199, 200–299, 300–399 dengan frekuensi 10, 18, 7. Gunakan titik tengah 149,5; 249,5; 349,5."
+          },
+          {
+            "locator": "slide:42/shape:10",
+            "quote": "Untuk data berkelompok, mean adalah estimasi berdasarkan titik tengah kelas."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑥ᵢ",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:42/shape:6",
+            "quote": "𝑥ᵢ"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑓ᵢ",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:42/shape:6",
+            "quote": "𝑓ᵢ"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑓ᵢ𝑥ᵢ",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:42/shape:6",
+            "quote": "𝑓ᵢ𝑥ᵢ"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: accent[̄](𝑥)=((Σ 𝑓ᵢ𝑥ᵢ))/((Σ 𝑓ᵢ))",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:42/shape:7",
+            "quote": "accent[̄](𝑥)=((Σ 𝑓ᵢ𝑥ᵢ))/((Σ 𝑓ᵢ))"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 43,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "A weighted average must state its weights; the illustrated assessment weights produce 80.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "A weighted average must state its weights; the illustrated assessment weights produce 80.",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:43/shape:2",
+            "quote": "Weighted Mean"
+          },
+          {
+            "locator": "slide:43/shape:3",
+            "quote": "Rata-rata ketika setiap nilai memiliki bobot"
+          },
+          {
+            "locator": "slide:43/shape:6",
+            "quote": "Tidak semua nilai harus punya pengaruh sama."
+          },
+          {
+            "locator": "slide:43/shape:7",
+            "quote": "𝑥𝑤=Σ 𝑤ᵢ𝑥ᵢ(Σ 𝑤ᵢ)"
+          },
+          {
+            "locator": "slide:43/shape:8",
+            "quote": "Contoh"
+          },
+          {
+            "locator": "slide:43/shape:9",
+            "quote": "Nilai proyek 80 berbobot 40%, UTS 70 berbobot 30%, UAS 90 berbobot 30%."
+          },
+          {
+            "locator": "slide:43/shape:10",
+            "quote": "Weighted mean menjawab: nilai mana yang lebih penting?"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: accent[̄](𝑥)_(𝑤)=((Σ 𝑤ᵢ𝑥ᵢ))/((Σ 𝑤ᵢ))",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:43/shape:7",
+            "quote": "accent[̄](𝑥)_(𝑤)=((Σ 𝑤ᵢ𝑥ᵢ))/((Σ 𝑤ᵢ))"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 44,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Frequency-weighted midpoints total 8432.5 across 35 observations, giving approximately 241 ms.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Frequency-weighted midpoints total 8432.5 across 35 observations, giving approximately 241 ms.",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:44/shape:2",
+            "quote": "Contoh Mean Berkelompok"
+          },
+          {
+            "locator": "slide:44/shape:3",
+            "quote": "Response time aplikasi"
+          },
+          {
+            "locator": "slide:44/shape:6",
+            "quote": "Kelas ms   Titik tengah xᵢ   fᵢ   fᵢxᵢ  "
+          },
+          {
+            "locator": "slide:44/shape:8",
+            "quote": "Interpretasi"
+          },
+          {
+            "locator": "slide:44/shape:9",
+            "quote": "Rata-rata response time sekitar 241 ms. Angka ini adalah ringkasan pusat, bukan batas maksimum."
+          },
+          {
+            "locator": "slide:44/shape:10",
+            "quote": "Mean berkelompok lebih mudah dihitung, tetapi lebih kasar daripada mean data asli."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 45,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Sort observations and select the middle observation or average the central pair.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "procedural",
+        "statement": "Sort observations and select the middle observation or average the central pair.",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:45/shape:2",
+            "quote": "Median Data Tunggal"
+          },
+          {
+            "locator": "slide:45/shape:3",
+            "quote": "Nilai tengah setelah data diurutkan"
+          },
+          {
+            "locator": "slide:45/shape:6",
+            "quote": "Urutkan data dari kecil ke besar."
+          },
+          {
+            "locator": "slide:45/shape:7",
+            "quote": "Median cocok ketika data sangat menceng atau memiliki nilai ekstrem."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑛",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:45/shape:6",
+            "quote": "𝑛"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: (𝑛+1)/(2)",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:45/shape:6",
+            "quote": "(𝑛+1)/(2)"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑛",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:45/shape:6",
+            "quote": "𝑛"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 46,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Median positions refer to sorted observations, not directly to numeric values; the two illustrated medians are 140 and 150 ms.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Median positions refer to sorted observations, not directly to numeric values; the two illustrated medians are 140 and 150 ms.",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:46/shape:2",
+            "quote": "Formula Posisi Median"
+          },
+          {
+            "locator": "slide:46/shape:3",
+            "quote": "Untuk data tidak berkelompok"
+          },
+          {
+            "locator": "slide:46/shape:6",
+            "quote": "Data harus diurutkan terlebih dahulu."
+          },
+          {
+            "locator": "slide:46/shape:8",
+            "quote": "Contoh"
+          },
+          {
+            "locator": "slide:46/shape:9",
+            "quote": "Data terurut: 95, 120, 140, 160, 200."
+          },
+          {
+            "locator": "slide:46/shape:10",
+            "quote": "Median menjawab: separuh data berada di bawah nilai ini."
+          },
+          {
+            "locator": "slide:46/shape:11",
+            "quote": "Data terurut: 90, 110, 130, 170, 200, 260\nBerapa mediannya ?"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 47,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Grouped median uses interpolation within the median class; define class boundaries and width before numerical use.",
+    "issues": [],
+    "limitations": [
+      "Define true class boundaries, width, and rounding conventions before numerical interpolation."
+    ],
+    "units": [
+      {
+        "type": "procedural",
+        "statement": "Grouped median uses interpolation within the median class; define class boundaries and width before numerical use.",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:47/shape:2",
+            "quote": "Median Data Berkelompok"
+          },
+          {
+            "locator": "slide:47/shape:3",
+            "quote": "Estimasi median dari distribusi frekuensi"
+          },
+          {
+            "locator": "slide:47/shape:6",
+            "quote": "Tentukan kelas median: kelas yang memuat n/2."
+          },
+          {
+            "locator": "slide:47/shape:7",
+            "quote": "𝑀𝑒 = 𝐿 + 𝑛2− 𝐹𝑓 𝑐"
+          },
+          {
+            "locator": "slide:47/shape:8",
+            "quote": "Contoh interpretasi"
+          },
+          {
+            "locator": "slide:47/shape:9",
+            "quote": "Jika median response time = 220 ms, separuh request lebih cepat dari 220 ms dan separuhnya lebih lambat."
+          },
+          {
+            "locator": "slide:47/shape:10",
+            "quote": "Median berkelompok adalah pendekatan karena data asli diganti interval."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝐿",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:47/shape:6",
+            "quote": "𝐿"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝐹",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:47/shape:6",
+            "quote": "𝐹"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑓",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:47/shape:6",
+            "quote": "𝑓"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝑀𝑒 = 𝐿 + ((((𝑛)/(2)− 𝐹))/(𝑓)) 𝑐",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:47/shape:7",
+            "quote": "𝑀𝑒 = 𝐿 + ((((𝑛)/(2)− 𝐹))/(𝑓)) 𝑐"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "caveat",
+        "statement": "Grouped median interpolation requires a lower class boundary, not an unqualified lower limit.",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "VERIFIED",
+        "evidence": [
+          {
+            "locator": "slide:47/shape:2",
+            "quote": "Median Data Berkelompok"
+          }
+        ],
+        "references": [
+          "fao-grouped"
+        ]
+      }
+    ]
+  },
+  {
+    "slide": 48,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Mode identifies frequent values or categories and may be nonunique under the course convention.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Mode identifies frequent values or categories and may be nonunique under the course convention.",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:48/shape:2",
+            "quote": "Modus"
+          },
+          {
+            "locator": "slide:48/shape:3",
+            "quote": "Nilai atau kategori yang paling sering muncul"
+          },
+          {
+            "locator": "slide:48/shape:6",
+            "quote": "Untuk nominal: modus adalah kategori terbanyak."
+          },
+          {
+            "locator": "slide:48/shape:7",
+            "quote": "Modus menjawab: “nilai atau kategori apa yang paling umum?”"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 49,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Grouped mode uses modal-class frequency differences; preserve the source's superscript variant and do not silently interpret those labels as powers.",
+    "issues": [],
+    "limitations": [
+      "Prose defines d1/d2 frequency differences while math uses superscripts. Preserve the local labels; no specific grouped-mode estimate is independently validated here."
+    ],
+    "units": [
+      {
+        "type": "procedural",
+        "statement": "Grouped mode uses modal-class frequency differences; preserve the source's superscript variant and do not silently interpret those labels as powers.",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:49/shape:2",
+            "quote": "Modus Data Berkelompok"
+          },
+          {
+            "locator": "slide:49/shape:3",
+            "quote": "Menggunakan kelas dengan frekuensi terbesar"
+          },
+          {
+            "locator": "slide:49/shape:6",
+            "quote": "Pilih kelas modus, yaitu kelas dengan frekuensi terbesar."
+          },
+          {
+            "locator": "slide:49/shape:7",
+            "quote": "𝑀𝑜 = 𝐿 + 𝑑1𝑑1+ 𝑑2 𝑐"
+          },
+          {
+            "locator": "slide:49/shape:8",
+            "quote": "Contoh TI"
+          },
+          {
+            "locator": "slide:49/shape:9",
+            "quote": "Jika kelas response time 200–299 ms paling sering muncul, maka performa paling umum berada di sekitar kelas tersebut."
+          },
+          {
+            "locator": "slide:49/shape:10",
+            "quote": "Modus baik untuk mengetahui kejadian yang paling sering muncul."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝑀𝑜 = 𝐿 + ((𝑑^(1))/(𝑑^(1)+ 𝑑^(2))) 𝑐",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:49/shape:7",
+            "quote": "𝑀𝑜 = 𝐿 + ((𝑑^(1))/(𝑑^(1)+ 𝑑^(2))) 𝑐"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 50,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Mean/median ordering is a useful heuristic for skewed data, not a universal theorem for all distributions.",
+    "issues": [],
+    "limitations": [
+      "Mean/median ordering is a tendency, not a universal skewness theorem."
+    ],
+    "units": [
+      {
+        "type": "caveat",
+        "statement": "Mean/median ordering is a useful heuristic for skewed data, not a universal theorem for all distributions.",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:50/shape:2",
+            "quote": "Mean vs Median vs Modus"
+          },
+          {
+            "locator": "slide:50/shape:3",
+            "quote": "Ketiganya tidak selalu sama"
+          },
+          {
+            "locator": "slide:50/shape:6",
+            "quote": "Data simetris: mean, median, dan modus cenderung berdekatan."
+          },
+          {
+            "locator": "slide:50/shape:7",
+            "quote": "Selalu lihat grafik distribusi sebelum menyimpulkan dari satu angka pusat."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 51,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Changing one response time from 140 to 900 raises the mean from 120 to 272 while leaving the median at 120.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Changing one response time from 140 to 900 raises the mean from 120 to 272 while leaving the median at 120.",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:51/shape:2",
+            "quote": "Outlier dan Mean"
+          },
+          {
+            "locator": "slide:51/shape:3",
+            "quote": "Satu nilai ekstrem dapat mengubah rata-rata"
+          },
+          {
+            "locator": "slide:51/shape:6",
+            "quote": "Data A: 100, 110, 120, 130, 140"
+          },
+          {
+            "locator": "slide:51/shape:7",
+            "quote": "Data B: 100, 110, 120, 130, 900"
+          },
+          {
+            "locator": "slide:51/shape:8",
+            "quote": "Pada Data B, mean naik drastis karena satu nilai 900."
+          },
+          {
+            "locator": "slide:51/shape:9",
+            "quote": "Ketika data punya outlier, laporkan mean dan median bersama-sama."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 52,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Summarize the provided quiz values and discuss shape without inferring a population distribution from seven observations.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "exercise",
+        "statement": "Summarize the provided quiz values and discuss shape without inferring a population distribution from seven observations.",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:52/shape:2",
+            "quote": "Contoh Kasus Pemusatan"
+          },
+          {
+            "locator": "slide:52/shape:3",
+            "quote": "Nilai kuis mahasiswa TI"
+          },
+          {
+            "locator": "slide:52/shape:6",
+            "quote": "Data nilai: 70, 75, 80, 80, 85, 90, 95."
+          },
+          {
+            "locator": "slide:52/shape:7",
+            "quote": "Analisis pemusatan harus selalu diikuti interpretasi, bukan berhenti pada angka."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 53,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Compute center for the provided latency observations and discuss the 900 ms value without inventing its cause.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "exercise",
+        "statement": "Compute center for the provided latency observations and discuss the 900 ms value without inventing its cause.",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:53/shape:2",
+            "quote": "Latihan 1: Mean, Median, Modus"
+          },
+          {
+            "locator": "slide:53/shape:3",
+            "quote": "Kerjakan secara manual atau dengan Python"
+          },
+          {
+            "locator": "slide:53/shape:6",
+            "quote": "Data response time: 120, 180, 180, 200, 260, 310, 900"
+          },
+          {
+            "locator": "slide:53/shape:7",
+            "quote": "• Hitung mean."
+          },
+          {
+            "locator": "slide:53/shape:8",
+            "quote": "Jawaban angka harus disertai alasan konteks sistem."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 54,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "The supplied solution has mean 307.14 ms, median 200 ms, and mode 180 ms; possible slow-request causes remain hypotheses.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "The supplied solution has mean 307.14 ms, median 200 ms, and mode 180 ms; possible slow-request causes remain hypotheses.",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:54/shape:2",
+            "quote": "Solusi Latihan 1"
+          },
+          {
+            "locator": "slide:54/shape:3",
+            "quote": "Response time aplikasi"
+          },
+          {
+            "locator": "slide:54/shape:6",
+            "quote": "𝑥=120+180+180+200+260+310+9007= 307,14 𝑚𝑠"
+          },
+          {
+            "locator": "slide:54/shape:7",
+            "quote": "Me = data ke-4 = 200 ms"
+          },
+          {
+            "locator": "slide:54/shape:8",
+            "quote": "• Mean jauh lebih besar dari median karena ada outlier 900 ms."
+          },
+          {
+            "locator": "slide:54/shape:9",
+            "quote": "Dalam performa sistem, outlier sering menjadi sinyal masalah penting."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: accent[̄](𝑥)=(120+180+180+200+260+310+900)/(7)= 307,14 𝑚𝑠",
+        "concepts": [
+          "central-tendency"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:54/shape:6",
+            "quote": "accent[̄](𝑥)=(120+180+180+200+260+310+900)/(7)= 307,14 𝑚𝑠"
+          }
+        ],
+        "references": []
+      }
+    ]
+  }
+]

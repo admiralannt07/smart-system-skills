@@ -1,0 +1,849 @@
+[
+  {
+    "slide": 55,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Spread adds information about variability when averages coincide.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Spread adds information about variability when averages coincide.",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:55/shape:2",
+            "quote": "Ukuran Penyebaran Data"
+          },
+          {
+            "locator": "slide:55/shape:3",
+            "quote": "Mengukur seberapa jauh data menyebar dari pusatnya"
+          },
+          {
+            "locator": "slide:55/shape:6",
+            "quote": "Dua data dapat memiliki mean yang sama tetapi sebaran berbeda."
+          },
+          {
+            "locator": "slide:55/shape:7",
+            "quote": "Pusat data menjawab “di mana”; penyebaran menjawab “seberapa stabil”."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 56,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Range uses extreme values; the source example spans 810 ms.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Range uses extreme values; the source example spans 810 ms.",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:56/shape:2",
+            "quote": "Jangkauan / Range"
+          },
+          {
+            "locator": "slide:56/shape:3",
+            "quote": "Ukuran penyebaran paling sederhana"
+          },
+          {
+            "locator": "slide:56/shape:6",
+            "quote": "Range adalah selisih nilai maksimum dan minimum."
+          },
+          {
+            "locator": "slide:56/shape:7",
+            "quote": "R = xₘₐₓ − xₘᵢₙ"
+          },
+          {
+            "locator": "slide:56/shape:8",
+            "quote": "Contoh"
+          },
+          {
+            "locator": "slide:56/shape:9",
+            "quote": "Response time minimum 90 ms dan maksimum 900 ms."
+          },
+          {
+            "locator": "slide:56/shape:10",
+            "quote": "Range besar bisa menunjukkan variasi tinggi atau adanya outlier."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 57,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Deviations are signed differences from a specified mean; the illustrated difference is 40 ms.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Deviations are signed differences from a specified mean; the illustrated difference is 40 ms.",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:57/shape:2",
+            "quote": "Deviasi dari Rata-Rata"
+          },
+          {
+            "locator": "slide:57/shape:3",
+            "quote": "Dasar menuju variansi dan simpangan baku"
+          },
+          {
+            "locator": "slide:57/shape:6",
+            "quote": "Deviasi menunjukkan jarak tiap nilai dari mean."
+          },
+          {
+            "locator": "slide:57/shape:7",
+            "quote": "Deviasi: 𝑑ᵢ = 𝑥ᵢ − 𝑥 ̄"
+          },
+          {
+            "locator": "slide:57/shape:8",
+            "quote": "Contoh"
+          },
+          {
+            "locator": "slide:57/shape:9",
+            "quote": "Jika x̄ = 160 dan satu response time xᵢ = 200, maka deviasinya 40 ms."
+          },
+          {
+            "locator": "slide:57/shape:10",
+            "quote": "Karena deviasi dapat saling meniadakan, kita perlu nilai absolut atau kuadrat."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝑑ᵢ = 𝑥ᵢ − 𝑥 ̄",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:57/shape:7",
+            "quote": "𝑑ᵢ = 𝑥ᵢ − 𝑥 ̄"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 58,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Average absolute deviation uses absolute distances from the mean and differs from median absolute deviation.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "exercise",
+        "statement": "Average absolute deviation uses absolute distances from the mean and differs from median absolute deviation.",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:58/shape:2",
+            "quote": "Simpangan Rata-Rata"
+          },
+          {
+            "locator": "slide:58/shape:3",
+            "quote": "Rata-rata jarak absolut dari mean"
+          },
+          {
+            "locator": "slide:58/shape:6",
+            "quote": "Menggunakan nilai absolut agar deviasi tidak saling meniadakan."
+          },
+          {
+            "locator": "slide:58/shape:7",
+            "quote": "𝑆𝑅 = Σ 𝑥ᵢ − 𝑥𝑛 "
+          },
+          {
+            "locator": "slide:58/shape:8",
+            "quote": "Contoh"
+          },
+          {
+            "locator": "slide:58/shape:9",
+            "quote": "Data: 7, 5, 6, 3, 8, 7."
+          },
+          {
+            "locator": "slide:58/shape:10",
+            "quote": "Simpangan rata-rata memberi jarak tipikal dari pusat data."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝑆𝑅 = (Σ |𝑥ᵢ − accent[̄](𝑥)|)/(𝑛) ",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:58/shape:7",
+            "quote": "𝑆𝑅 = (Σ |𝑥ᵢ − accent[̄](𝑥)|)/(𝑛) "
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 59,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Use the population mean and population denominator only for the explicitly defined complete population.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "formula",
+        "statement": "Use the population mean and population denominator only for the explicitly defined complete population.",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:59/shape:2",
+            "quote": "Variansi Populasi"
+          },
+          {
+            "locator": "slide:59/shape:3",
+            "quote": "Rata-rata kuadrat deviasi dari mean populasi"
+          },
+          {
+            "locator": "slide:59/shape:6",
+            "quote": "Variansi mengkuadratkan deviasi."
+          },
+          {
+            "locator": "slide:59/shape:7",
+            "quote": "𝜎2=𝑖=1𝑁𝑥ᵢ − 𝜇2 𝑁 "
+          },
+          {
+            "locator": "slide:59/shape:8",
+            "quote": "Contoh TI"
+          },
+          {
+            "locator": "slide:59/shape:9",
+            "quote": "Jika semua request satu hari dianalisis lengkap, variansi response time dapat diperlakukan sebagai variansi populasi hari itu."
+          },
+          {
+            "locator": "slide:59/shape:10",
+            "quote": "Variansi besar menunjukkan data sangat menyebar dari rata-rata."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝜎^(2)=(∑_(𝑖=1)^(𝑁)((𝑥ᵢ − 𝜇)^(2)) )/(𝑁) ",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:59/shape:7",
+            "quote": "𝜎^(2)=(∑_(𝑖=1)^(𝑁)((𝑥ᵢ − 𝜇)^(2)) )/(𝑁) "
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 60,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "The usual sample variance centers on the sample mean and sums over n observations; preserve the conflicting source formula separately.",
+    "issues": [
+      {
+        "original": "𝑠^(2)=(∑_(𝑖=1)^(𝑁)((𝑥ᵢ − 𝜇)^(2)))/((𝑛 − 1))",
+        "locators": [
+          "slide:60/shape:7"
+        ],
+        "interpretation": "The slide describes ordinary sample variance but shows population-mean centering and an N upper limit. Preserve the source. For its sample-estimation task use sum(i=1..n,(x_i-x_bar)^2)/(n-1), n>1. Lecturer intent beyond the stated task is unknown.",
+        "disposition": "resolved-source-discrepancy",
+        "references": [
+          "nist-scale"
+        ]
+      }
+    ],
+    "limitations": [],
+    "units": [
+      {
+        "type": "formula",
+        "statement": "The usual sample variance centers on the sample mean and sums over n observations; preserve the conflicting source formula separately.",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:60/shape:2",
+            "quote": "Variansi Sampel"
+          },
+          {
+            "locator": "slide:60/shape:3",
+            "quote": "Estimasi variansi populasi dari sampel"
+          },
+          {
+            "locator": "slide:60/shape:6",
+            "quote": "Menggunakan penyebut n − 1."
+          },
+          {
+            "locator": "slide:60/shape:7",
+            "quote": "𝑠2=𝑖=1𝑁𝑥ᵢ − 𝜇2(𝑛 − 1)"
+          },
+          {
+            "locator": "slide:60/shape:8",
+            "quote": "Contoh TI"
+          },
+          {
+            "locator": "slide:60/shape:9",
+            "quote": "Dari 500 request acak, hitung s² untuk memperkirakan variasi response time semua request."
+          },
+          {
+            "locator": "slide:60/shape:10",
+            "quote": "Untuk sampel, gunakan n − 1 agar estimasi variansi tidak terlalu kecil."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝑠^(2)=(∑_(𝑖=1)^(𝑁)((𝑥ᵢ − 𝜇)^(2)))/((𝑛 − 1))",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:60/shape:7",
+            "quote": "𝑠^(2)=(∑_(𝑖=1)^(𝑁)((𝑥ᵢ − 𝜇)^(2)))/((𝑛 − 1))"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "caveat",
+        "statement": "The slide describes ordinary sample variance but shows population-mean centering and an N upper limit. Preserve the source. For its sample-estimation task use sum(i=1..n,(x_i-x_bar)^2)/(n-1), n>1. Lecturer intent beyond the stated task is unknown.",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "VERIFIED",
+        "evidence": [
+          {
+            "locator": "slide:60/shape:7",
+            "quote": "𝑠^(2)=(∑_(𝑖=1)^(𝑁)((𝑥ᵢ − 𝜇)^(2)))/((𝑛 − 1))"
+          }
+        ],
+        "references": [
+          "nist-scale"
+        ]
+      }
+    ]
+  },
+  {
+    "slide": 61,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Standard deviation is the square root of the corresponding variance and restores original units.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Standard deviation is the square root of the corresponding variance and restores original units.",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:61/shape:2",
+            "quote": "Simpangan Baku"
+          },
+          {
+            "locator": "slide:61/shape:3",
+            "quote": "Akar dari variansi"
+          },
+          {
+            "locator": "slide:61/shape:6",
+            "quote": "Simpangan baku kembali ke satuan asli data."
+          },
+          {
+            "locator": "slide:61/shape:7",
+            "quote": "Populasi: 𝜎 = √𝜎²"
+          },
+          {
+            "locator": "slide:61/shape:8",
+            "quote": "Contoh"
+          },
+          {
+            "locator": "slide:61/shape:9",
+            "quote": "Jika s = 35 ms, response time biasanya menyimpang sekitar puluhan ms dari mean."
+          },
+          {
+            "locator": "slide:61/shape:10",
+            "quote": "Simpangan baku adalah ukuran kestabilan yang sangat penting."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝜎 = √𝜎²",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:61/shape:7",
+            "quote": "𝜎 = √𝜎²"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝑠 = √𝑠²",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:61/shape:7",
+            "quote": "𝑠 = √𝑠²"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 62,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Equal mean response times can conceal different variability; lower spread alone does not establish an entire reliability distribution.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Equal mean response times can conceal different variability; lower spread alone does not establish an entire reliability distribution.",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:62/shape:2",
+            "quote": "Interpretasi Simpangan Baku"
+          },
+          {
+            "locator": "slide:62/shape:3",
+            "quote": "Bandingkan stabilitas dua sistem"
+          },
+          {
+            "locator": "slide:62/shape:6",
+            "quote": "Server A: mean 200 ms, simpangan baku 20 ms."
+          },
+          {
+            "locator": "slide:62/shape:7",
+            "quote": "Mean sama tidak berarti kualitas layanan sama."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 63,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Quartiles summarize empirical position; exact percentages and interpolation depend on the finite-sample quantile convention.",
+    "issues": [],
+    "limitations": [
+      "A finite-sample quantile algorithm has not been specified by the lecturer."
+    ],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Quartiles summarize empirical position; exact percentages and interpolation depend on the finite-sample quantile convention.",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:63/shape:2",
+            "quote": "Kuartil"
+          },
+          {
+            "locator": "slide:63/shape:3",
+            "quote": "Membagi data menjadi empat bagian"
+          },
+          {
+            "locator": "slide:63/shape:6",
+            "quote": "• Q1: 25% data berada di bawahnya."
+          },
+          {
+            "locator": "slide:63/shape:7",
+            "quote": "Q₁ = kuartil bawah"
+          },
+          {
+            "locator": "slide:63/shape:8",
+            "quote": "Contoh TI"
+          },
+          {
+            "locator": "slide:63/shape:9",
+            "quote": "Q3 response time = 320 ms berarti 75% request selesai sampai sekitar 320 ms."
+          },
+          {
+            "locator": "slide:63/shape:10",
+            "quote": "Kuartil memberi gambaran posisi data tanpa terlalu dipengaruhi outlier."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 64,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Interquartile range measures the central spread; the given quartiles differ by 160 ms.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Interquartile range measures the central spread; the given quartiles differ by 160 ms.",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:64/shape:2",
+            "quote": "Interquartile Range"
+          },
+          {
+            "locator": "slide:64/shape:3",
+            "quote": "Sebaran bagian tengah data"
+          },
+          {
+            "locator": "slide:64/shape:6",
+            "quote": "• IQR adalah selisih Q3 dan Q1."
+          },
+          {
+            "locator": "slide:64/shape:7",
+            "quote": "IQR = Q₃ − Q₁"
+          },
+          {
+            "locator": "slide:64/shape:8",
+            "quote": "Contoh"
+          },
+          {
+            "locator": "slide:64/shape:9",
+            "quote": "Jika Q1 = 120 ms dan Q3 = 280 ms, maka IQR = 160 ms."
+          },
+          {
+            "locator": "slide:64/shape:10",
+            "quote": "IQR fokus pada data tengah, bukan nilai ekstrem."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 65,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Use stated quartiles to construct 1.5-IQR fences and investigate flagged values before removal.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "procedural",
+        "statement": "Use stated quartiles to construct 1.5-IQR fences and investigate flagged values before removal.",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:65/shape:2",
+            "quote": "Deteksi Outlier dengan IQR"
+          },
+          {
+            "locator": "slide:65/shape:3",
+            "quote": "Aturan sederhana yang sering dipakai"
+          },
+          {
+            "locator": "slide:65/shape:6",
+            "quote": "• Batas bawah = Q1 − 1,5 IQR."
+          },
+          {
+            "locator": "slide:65/shape:7",
+            "quote": "Lower fence = Q₁ − 1,5 IQR"
+          },
+          {
+            "locator": "slide:65/shape:8",
+            "quote": "Contoh TI"
+          },
+          {
+            "locator": "slide:65/shape:9",
+            "quote": "Request 3.000 ms mungkin outlier, tetapi bisa juga menandakan query lambat yang penting diperbaiki."
+          },
+          {
+            "locator": "slide:65/shape:10",
+            "quote": "Outlier adalah petunjuk investigasi, bukan sampah data otomatis."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 66,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Standardize with a specified nonzero standard deviation; the example yields z=2.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Standardize with a specified nonzero standard deviation; the example yields z=2.",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:66/shape:2",
+            "quote": "Z-Score"
+          },
+          {
+            "locator": "slide:66/shape:3",
+            "quote": "Mengukur posisi relatif terhadap mean"
+          },
+          {
+            "locator": "slide:66/shape:6",
+            "quote": "• Z-score menyatakan berapa simpangan baku suatu nilai dari mean."
+          },
+          {
+            "locator": "slide:66/shape:7",
+            "quote": "z = (x − x̄) / s"
+          },
+          {
+            "locator": "slide:66/shape:8",
+            "quote": "Contoh"
+          },
+          {
+            "locator": "slide:66/shape:9",
+            "quote": "Jika x=260, x̄=200, dan s=30, maka z=2. Nilai tersebut 2 simpangan baku di atas rata-rata."
+          },
+          {
+            "locator": "slide:66/shape:10",
+            "quote": "Z-score membuat data berbeda skala dapat dibandingkan."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 67,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "The displayed mean-minus-median expression is Pearson's second skewness coefficient, not every software package's moment skewness.",
+    "issues": [],
+    "limitations": [
+      "The supplied expression is Pearson second skewness, not generic moment skewness."
+    ],
+    "units": [
+      {
+        "type": "formula",
+        "statement": "The displayed mean-minus-median expression is Pearson's second skewness coefficient, not every software package's moment skewness.",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:67/shape:2",
+            "quote": "Skewness"
+          },
+          {
+            "locator": "slide:67/shape:3",
+            "quote": "Ukuran kemencengan distribusi"
+          },
+          {
+            "locator": "slide:67/shape:6",
+            "quote": "• Skewness ≈ 0: distribusi relatif simetris."
+          },
+          {
+            "locator": "slide:67/shape:7",
+            "quote": "Skewness ≈ (3(x̄ − Me)) / s"
+          },
+          {
+            "locator": "slide:67/shape:8",
+            "quote": "Contoh"
+          },
+          {
+            "locator": "slide:67/shape:9",
+            "quote": "Jika mean jauh lebih besar daripada median, distribusi cenderung menceng ke kanan."
+          },
+          {
+            "locator": "slide:67/shape:10",
+            "quote": "Skewness membantu memilih apakah mean atau median lebih representatif."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "caveat",
+        "statement": "The displayed 3*(mean-median)/SD is Pearson second skewness; other estimators differ.",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "VERIFIED",
+        "evidence": [
+          {
+            "locator": "slide:67/shape:2",
+            "quote": "Skewness"
+          }
+        ],
+        "references": [
+          "nist-shape"
+        ]
+      }
+    ]
+  },
+  {
+    "slide": 68,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Kurtosis describes tail behavior; excess kurtosis subtracts three under the stated convention.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Kurtosis describes tail behavior; excess kurtosis subtracts three under the stated convention.",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:68/shape:2",
+            "quote": "Kurtosis"
+          },
+          {
+            "locator": "slide:68/shape:3",
+            "quote": "Ukuran ketajaman atau berat ekor distribusi"
+          },
+          {
+            "locator": "slide:68/shape:6",
+            "quote": "• Kurtosis tinggi dapat menunjukkan banyak nilai ekstrem."
+          },
+          {
+            "locator": "slide:68/shape:7",
+            "quote": "Excess kurtosis = kurtosis − 3"
+          },
+          {
+            "locator": "slide:68/shape:8",
+            "quote": "Contoh TI"
+          },
+          {
+            "locator": "slide:68/shape:9",
+            "quote": "Distribusi response time dengan banyak request sangat lambat dapat memiliki ekor kanan berat."
+          },
+          {
+            "locator": "slide:68/shape:10",
+            "quote": "Kurtosis berguna jika dikombinasikan dengan visualisasi."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "caveat",
+        "statement": "Excess kurtosis subtracts three from raw kurtosis under this convention.",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "VERIFIED",
+        "evidence": [
+          {
+            "locator": "slide:68/shape:2",
+            "quote": "Kurtosis"
+          }
+        ],
+        "references": [
+          "nist-shape"
+        ]
+      }
+    ]
+  },
+  {
+    "slide": 69,
+    "source_sha256": "4755fbe5194d8009d412972d9ba97db2e2b21868d0fdedd74ddef34098820283",
+    "summary": "Compute sample spread for the six latency observations; any IQR outlier answer must declare its quantile method.",
+    "issues": [],
+    "limitations": [
+      "The sample-SD result is computed; an IQR outlier judgment additionally needs a declared quantile method."
+    ],
+    "units": [
+      {
+        "type": "exercise",
+        "statement": "Compute sample spread for the six latency observations; any IQR outlier answer must declare its quantile method.",
+        "concepts": [
+          "data-dispersion"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:69/shape:2",
+            "quote": "Latihan 2: Penyebaran"
+          },
+          {
+            "locator": "slide:69/shape:3",
+            "quote": "Data response time dalam ms"
+          },
+          {
+            "locator": "slide:69/shape:6",
+            "quote": "Data: 100, 110, 120, 130, 140, 300"
+          },
+          {
+            "locator": "slide:69/shape:7",
+            "quote": "• Hitung range."
+          },
+          {
+            "locator": "slide:69/shape:8",
+            "quote": "Tujuan latihan bukan hanya menghitung, tetapi membaca kestabilan sistem."
+          }
+        ],
+        "references": []
+      }
+    ]
+  }
+]

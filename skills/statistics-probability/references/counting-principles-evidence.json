@@ -1,0 +1,550 @@
+[
+  {
+    "slide": 16,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Staged choices motivate the multiplication principle.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Staged choices motivate the multiplication principle.",
+        "concepts": [
+          "counting-principles"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:16/shape:330",
+            "quote": "\tTEMA 02"
+          },
+          {
+            "locator": "slide:16/shape:331",
+            "quote": "\tPILIHAN BERTAHAP"
+          },
+          {
+            "locator": "slide:16/shape:332",
+            "quote": "\tSTATISTIKA UNTUK KEPUTUSAN TI"
+          },
+          {
+            "locator": "slide:16/shape:335",
+            "quote": "\tATURAN PERKALIAN"
+          },
+          {
+            "locator": "slide:16/shape:336",
+            "quote": "\tMengapa tiga tombol pilihan dapat menciptakan puluhan skenario?"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 17,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Two bread choices and three fillings yield six possible menus if all pairs are allowed.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "exercise",
+        "statement": "Two bread choices and three fillings yield six possible menus if all pairs are allowed.",
+        "concepts": [
+          "counting-principles"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:17/shape:340",
+            "quote": "\tTebak-tebakan: Menu sarapan"
+          },
+          {
+            "locator": "slide:17/shape:342",
+            "quote": "\tTEMA 2  /  ATURAN PERKALIAN"
+          },
+          {
+            "locator": "slide:17/shape:346",
+            "quote": "\tAYO TEBAK DULU"
+          },
+          {
+            "locator": "slide:17/shape:347",
+            "quote": "\tWarung menyediakan 2 jenis roti dan 3 jenis isian. Setiap pembeli memilih satu roti dan satu isian. Ada berapa menu?"
+          },
+          {
+            "locator": "slide:17/shape:349",
+            "quote": "\tPETUNJUK"
+          },
+          {
+            "locator": "slide:17/shape:350",
+            "quote": "\tA. 5 menu"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 18,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Enumerating both branches verifies a two-by-three product of six.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Enumerating both branches verifies a two-by-three product of six.",
+        "concepts": [
+          "counting-principles"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:18/shape:353",
+            "quote": "\tJawaban: bukan dijumlahkan"
+          },
+          {
+            "locator": "slide:18/shape:355",
+            "quote": "\tTEMA 2  /  ATURAN PERKALIAN"
+          },
+          {
+            "locator": "slide:18/shape:360",
+            "quote": "\t1"
+          },
+          {
+            "locator": "slide:18/shape:361",
+            "quote": "\tPilih roti A → bisa disandingkan dengan isi 1, 2, atau 3."
+          },
+          {
+            "locator": "slide:18/shape:364",
+            "quote": "\t2"
+          },
+          {
+            "locator": "slide:18/shape:365",
+            "quote": "\tPilih roti B → bisa disandingkan dengan isi 1, 2, atau 3."
+          },
+          {
+            "locator": "slide:18/shape:368",
+            "quote": "\t3"
+          },
+          {
+            "locator": "slide:18/shape:369",
+            "quote": "\tDaftar hasil: A1, A2, A3, B1, B2, B3."
+          },
+          {
+            "locator": "slide:18/shape:372",
+            "quote": "\t4"
+          },
+          {
+            "locator": "slide:18/shape:373",
+            "quote": "\tDua tahap dengan masing-masing 2 dan 3 opsi memberi 2 × 3 = 6 hasil."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 19,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Multiply fixed branching counts; when counts depend on earlier choices, count branches and add. N here denotes a count, not a population-size assertion.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "formula",
+        "statement": "Multiply fixed branching counts; when counts depend on earlier choices, count branches and add. N here denotes a count, not a population-size assertion.",
+        "concepts": [
+          "counting-principles"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:19/shape:376",
+            "quote": "\tDefinisi: aturan perkalian pencacahan"
+          },
+          {
+            "locator": "slide:19/shape:378",
+            "quote": "\tTEMA 2  /  ATURAN PERKALIAN"
+          },
+          {
+            "locator": "slide:19/shape:382",
+            "quote": "\t𝑵 = 𝒏₁ × 𝒏₂ × ⋯ × 𝒏ₖ"
+          },
+          {
+            "locator": "slide:19/shape:384",
+            "quote": "\tDEFINISI"
+          },
+          {
+            "locator": "slide:19/shape:385",
+            "quote": "\tAturan perkalian (multiplication principle) menyatakan bahwa apabila suatu proses terdiri atas dua tahap, tahap pertama mempunyai 𝑚 pilihan dan setiap pilihan tahap pertama dapat dilanjutkan dengan 𝑛 pilihan pada tahap kedua, maka banyaknya kemungkinan keseluruhan adalah 𝑚𝑛."
+          },
+          {
+            "locator": "slide:19/shape:387",
+            "quote": "\tKAPAN DIPAKAI?"
+          },
+          {
+            "locator": "slide:19/shape:388",
+            "quote": "\tJumlah opsi tahap lanjutan boleh berubah; jika berubah, hitung per cabang dan jumlahkan."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝑵 = 𝒏₁ × 𝒏₂ × ⋯ × 𝒏ₖ",
+        "concepts": [
+          "counting-principles"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:19/shape:382",
+            "quote": "𝑵 = 𝒏₁ × 𝒏₂ × ⋯ × 𝒏ₖ"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑚",
+        "concepts": [
+          "counting-principles"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:19/shape:385",
+            "quote": "𝑚"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑛",
+        "concepts": [
+          "counting-principles"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:19/shape:385",
+            "quote": "𝑛"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑚𝑛.",
+        "concepts": [
+          "counting-principles"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:19/shape:385",
+            "quote": "𝑚𝑛."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 20,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Three tops, two bottoms, and two shoe pairs give twelve outfits under compatibility assumptions.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Three tops, two bottoms, and two shoe pairs give twelve outfits under compatibility assumptions.",
+        "concepts": [
+          "counting-principles"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:20/shape:391",
+            "quote": "\tContoh harian: Memilih pakaian"
+          },
+          {
+            "locator": "slide:20/shape:393",
+            "quote": "\tTEMA 2  /  ATURAN PERKALIAN"
+          },
+          {
+            "locator": "slide:20/shape:397",
+            "quote": "\tJUMLAH OUTFIT"
+          },
+          {
+            "locator": "slide:20/shape:398",
+            "quote": "\t12 cara"
+          },
+          {
+            "locator": "slide:20/shape:399",
+            "quote": "\t3 atasan × 2 bawahan × 2 pasang sepatu. Asumsinya semua pasangan bisa digunakan."
+          },
+          {
+            "locator": "slide:20/shape:401",
+            "quote": "\tMakna: tidak perlu mencoba satu per satu untuk menghitung seluruh kombinasi gaya. Jika ada pasangan yang tidak cocok, coret kombinasi terlarang."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 21,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Four browsers, three operating systems, and two languages give 24 configurations if all are feasible.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Four browsers, three operating systems, and two languages give 24 configurations if all are feasible.",
+        "concepts": [
+          "counting-principles"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:21/shape:404",
+            "quote": "\tContoh TI: Konfigurasi pengujian"
+          },
+          {
+            "locator": "slide:21/shape:406",
+            "quote": "\tTEMA 2  /  ATURAN PERKALIAN"
+          },
+          {
+            "locator": "slide:21/shape:410",
+            "quote": "\tFULL COMBINATIONS"
+          },
+          {
+            "locator": "slide:21/shape:411",
+            "quote": "\t24 tes"
+          },
+          {
+            "locator": "slide:21/shape:412",
+            "quote": "\t4 browser × 3 sistem operasi × 2 bahasa = 24 skenario konfigurasi."
+          },
+          {
+            "locator": "slide:21/shape:414",
+            "quote": "\tMakna keputusan: saat tiap konfigurasi dianggap layak, pengujian menyeluruh mencakup 24 skenario. Jika ada kombinasi browser OS tidak kompatibel, hitung ulang."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 22,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Twenty-four sequential six-minute scenarios require 144 minutes under the explicitly stated timing assumptions.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Twenty-four sequential six-minute scenarios require 144 minutes under the explicitly stated timing assumptions.",
+        "concepts": [
+          "counting-principles"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:22/shape:417",
+            "quote": "\tDari jumlah tes menuju keputusan waktu"
+          },
+          {
+            "locator": "slide:22/shape:419",
+            "quote": "\tTEMA 2  /  ATURAN PERKALIAN"
+          },
+          {
+            "locator": "slide:22/shape:423",
+            "quote": "\tASUMSI SIMULASI"
+          },
+          {
+            "locator": "slide:22/shape:424",
+            "quote": "\t144 menit"
+          },
+          {
+            "locator": "slide:22/shape:425",
+            "quote": "\tJika setiap dari 24 skenario memerlukan 6 menit dan diuji berurutan tanpa waktu tambahan, maka waktu yang diperlukan 24 × 6 = 144 menit."
+          },
+          {
+            "locator": "slide:22/shape:427",
+            "quote": "\tMakna: hasilnya estimasi awal beban kerja, bukan durasi nyata. Akan tetapi, pengujian paralel, dan setup dapat mengubah durasi."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 23,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Remove one forbidden device-payment pair from six otherwise possible pairs to obtain five.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Remove one forbidden device-payment pair from six otherwise possible pairs to obtain five.",
+        "concepts": [
+          "counting-principles"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:23/shape:430",
+            "quote": "\tPerkalian tidak selalu lurus"
+          },
+          {
+            "locator": "slide:23/shape:432",
+            "quote": "\tTEMA 2  /  ATURAN PERKALIAN"
+          },
+          {
+            "locator": "slide:23/shape:436",
+            "quote": "\tKONDISI IDEAL"
+          },
+          {
+            "locator": "slide:23/shape:437",
+            "quote": "\t3 metode bayar (QR, Chash, Transfer)  × 2 perangkat, maka 6 pilihan konfigurasi bisa digunakan apabila SEMUA metode tersedia pada KEDUA perangkat."
+          },
+          {
+            "locator": "slide:23/shape:439",
+            "quote": "\tADA BATASAN"
+          },
+          {
+            "locator": "slide:23/shape:440",
+            "quote": "\tJika metode QR hanya bisa di perangkat A, pasangan (B, QR) tidak diizinkan; yang tersisa hanya 5 konfigurasi."
+          },
+          {
+            "locator": "slide:23/shape:442",
+            "quote": "\tKeputusan benar membutuhkan daftar kendala, bukan sekadar mengalikan angka."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 24,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Count unrestricted choices and remove prohibited device-payment combinations across both roles.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "exercise",
+        "statement": "Count unrestricted choices and remove prohibited device-payment combinations across both roles.",
+        "concepts": [
+          "counting-principles"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:24/shape:460",
+            "quote": "\tLatihan Tema 2: Tiga soal"
+          },
+          {
+            "locator": "slide:24/shape:462",
+            "quote": "\tTEMA 2  /  ATURAN PERKALIAN"
+          },
+          {
+            "locator": "slide:24/shape:466",
+            "quote": "\tKERJAKAN BERPASANGAN"
+          },
+          {
+            "locator": "slide:24/shape:469",
+            "quote": "\t1"
+          },
+          {
+            "locator": "slide:24/shape:470",
+            "quote": "\tAda 3 minuman dan 2 ukuran gelas. Berapa paket minuman berbeda?"
+          },
+          {
+            "locator": "slide:24/shape:473",
+            "quote": "\t2"
+          },
+          {
+            "locator": "slide:24/shape:474",
+            "quote": "\tEmpat browser, tiga jaringan, dua bahasa. Berapa konfigurasi pengujian?"
+          },
+          {
+            "locator": "slide:24/shape:477",
+            "quote": "\t3"
+          },
+          {
+            "locator": "slide:24/shape:478",
+            "quote": "\tAda 3 perangkat, 2 metode bayar, 2 peran pengguna. Satu metode tidak ada di 1 perangkat (untuk dua peran). Berapa konfigurasi sah?"
+          },
+          {
+            "locator": "slide:24/shape:479",
+            "quote": "\tTuliskan: apa yang dihitung, aturan yang dipakai, dan alasannya."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 25,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "The source solutions give six packages, 24 configurations, and ten valid restricted configurations.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "The source solutions give six packages, 24 configurations, and ten valid restricted configurations.",
+        "concepts": [
+          "counting-principles"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:25/shape:482",
+            "quote": "\tPembahasan Tema 2"
+          },
+          {
+            "locator": "slide:25/shape:484",
+            "quote": "\tTEMA 2  /  ATURAN PERKALIAN"
+          },
+          {
+            "locator": "slide:25/shape:488",
+            "quote": "\t1."
+          },
+          {
+            "locator": "slide:25/shape:489",
+            "quote": "\tSatu jenis minuman dan satu ukuran → 3 × 2 = 6 paket."
+          },
+          {
+            "locator": "slide:25/shape:491",
+            "quote": "\t2."
+          },
+          {
+            "locator": "slide:25/shape:492",
+            "quote": "\tBrowser × jaringan × bahasa → 4 × 3 × 2 = 24 konfigurasi."
+          },
+          {
+            "locator": "slide:25/shape:494",
+            "quote": "\t3."
+          },
+          {
+            "locator": "slide:25/shape:495",
+            "quote": "\tTotal teoretis 3 × 2 × 2 = 12; yang terlarang 1 × 1 × 2 = 2, jadi 10 sah."
+          },
+          {
+            "locator": "slide:25/shape:496",
+            "quote": "\tJangan hanya menghafal hasil: pahami model dan asumsi di belakangnya."
+          }
+        ],
+        "references": []
+      }
+    ]
+  }
+]

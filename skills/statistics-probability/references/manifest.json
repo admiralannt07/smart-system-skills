@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "course": "statistics-probability",
+  "root": "SKILL.md",
+  "context": "references/context-contract.md",
+  "skills": [
+    {
+      "name": "data-foundations",
+      "path": "subskills/data-foundations/SKILL.md",
+      "coverage": {
+        "source": "D1",
+        "slides": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          70
+        ]
+      },
+      "prerequisites": [],
+      "input_contract": "Population, sample, observation unit, variable types, units, collection purpose and quality observations.",
+      "output_contract": "Identity, results, assumptions, evidence, checks, unresolved dependencies",
+      "known_limitations": "No causal, representative-sampling, or inferential guarantees from a descriptive dataset.",
+      "evidence": "references/data-foundations-evidence.json"
+    },
+    {
+      "name": "data-presentation",
+      "path": "subskills/data-presentation/SKILL.md",
+      "coverage": {
+        "source": "D1",
+        "slides": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ]
+      },
+      "prerequisites": [
+        "data-foundations"
+      ],
+      "input_contract": "Question, variable roles, observation pairs/time ordering, class boundaries, units, counts and chart convention.",
+      "output_contract": "Identity, results, assumptions, evidence, checks, unresolved dependencies",
+      "known_limitations": "No invented scatter data; no unqualified attribution of unlabeled pie slices or unspecified whiskers.",
+      "evidence": "references/data-presentation-evidence.json"
+    },
+    {
+      "name": "central-tendency",
+      "path": "subskills/central-tendency/SKILL.md",
+      "coverage": {
+        "source": "D1",
+        "slides": [
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54
+        ]
+      },
+      "prerequisites": [
+        "data-foundations"
+      ],
+      "input_contract": "Numeric/ordered/categorical values as appropriate, observation unit, units, scope, dataset identity, weights or grouped boundaries when needed.",
+      "output_contract": "Identity, results, assumptions, evidence, checks, unresolved dependencies",
+      "known_limitations": "Slide 7/41 notation discrepancies; grouped quantities are approximations; center alone does not describe stability.",
+      "evidence": "references/central-tendency-evidence.json"
+    },
+    {
+      "name": "data-dispersion",
+      "path": "subskills/data-dispersion/SKILL.md",
+      "coverage": {
+        "source": "D1",
+        "slides": [
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ]
+      },
+      "prerequisites": [
+        "central-tendency"
+      ],
+      "input_contract": "Quantitative values, dataset identity/version, scope, units, prior center provenance; quantile and shape definitions when requested.",
+      "output_contract": "Identity, results, assumptions, evidence, checks, unresolved dependencies",
+      "known_limitations": "Source slide 60 conflicts with the sample formula; one-observation sample variance and zero-SD standardized scores are undefined.",
+      "evidence": "references/data-dispersion-evidence.json"
+    },
+    {
+      "name": "sample-space-events",
+      "path": "subskills/sample-space-events/SKILL.md",
+      "coverage": {
+        "source": "D2",
+        "slides": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "prerequisites": [],
+      "input_contract": "Experiment, allowed outcomes, event predicates, constraints and relevant local symbol meanings.",
+      "output_contract": "Identity, results, assumptions, evidence, checks, unresolved dependencies",
+      "known_limitations": "Finite enumeration is practical only for bounded spaces; no default equal-likelihood assumption.",
+      "evidence": "references/sample-space-events-evidence.json"
+    },
+    {
+      "name": "counting-principles",
+      "path": "subskills/counting-principles/SKILL.md",
+      "coverage": {
+        "source": "D2",
+        "slides": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      },
+      "prerequisites": [
+        "sample-space-events"
+      ],
+      "input_contract": "Stage alternatives, distinguishability, all restrictions, repetition rules and universe identity.",
+      "output_contract": "Identity, results, assumptions, evidence, checks, unresolved dependencies",
+      "known_limitations": "Raw products fail when restrictions change branch counts; unspecified forbidden rules cannot be guessed.",
+      "evidence": "references/counting-principles-evidence.json"
+    },
+    {
+      "name": "permutations",
+      "path": "subskills/permutations/SKILL.md",
+      "coverage": {
+        "source": "D2",
+        "slides": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ]
+      },
+      "prerequisites": [
+        "counting-principles"
+      ],
+      "input_contract": "n, selection size, identity/distinctness, order, replacement, multiplicities and constraints.",
+      "output_contract": "Identity, results, assumptions, evidence, checks, unresolved dependencies",
+      "known_limitations": "Slide 31 prose/formula mismatch; no generic factorial shortcut for arbitrary dependency schedules.",
+      "evidence": "references/permutations-evidence.json"
+    },
+    {
+      "name": "combinations",
+      "path": "subskills/combinations/SKILL.md",
+      "coverage": {
+        "source": "D2",
+        "slides": [
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51
+        ]
+      },
+      "prerequisites": [
+        "counting-principles"
+      ],
+      "input_contract": "n, group size, distinct objects, order/replacement rules and restrictions.",
+      "output_contract": "Identity, results, assumptions, evidence, checks, unresolved dependencies",
+      "known_limitations": "No automatic coverage of combinations with replacement, distributions, or probability assignments.",
+      "evidence": "references/combinations-evidence.json"
+    }
+  ]
+}

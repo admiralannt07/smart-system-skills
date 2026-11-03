@@ -1,0 +1,802 @@
+[
+  {
+    "slide": 5,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Model outcomes, sample points, the sample space, and events before assigning probabilities.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Model outcomes, sample points, the sample space, and events before assigning probabilities.",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:5/shape:132",
+            "quote": "\tSEMUA HASIL YANG MUNGKIN"
+          },
+          {
+            "locator": "slide:5/shape:136",
+            "quote": "\tRUANG SAMPEL"
+          },
+          {
+            "locator": "slide:5/shape:137",
+            "quote": "\tJika hasilnya belum diketahui, bagaimana kita bisa menyiapkan rencana?"
+          },
+          {
+            "locator": "slide:5/shape:138",
+            "quote": "\tMulai dari percobaan acak, titik sampel, ruang sampel, dan kejadian."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 6,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Two recorded coin tosses distinguish order and yield four elementary outcomes.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "exercise",
+        "statement": "Two recorded coin tosses distinguish order and yield four elementary outcomes.",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:6/shape:141",
+            "quote": "\tIntermezzo awal: Kasus dua kali lempar koin"
+          },
+          {
+            "locator": "slide:6/shape:143",
+            "quote": "\tTEMA 1 - RUANG SAMPEL"
+          },
+          {
+            "locator": "slide:6/shape:147",
+            "quote": "\tTEBAK DULU"
+          },
+          {
+            "locator": "slide:6/shape:148",
+            "quote": "\tSebuah koin dilempar dua kali. Berapa hasil berbeda jika urutan lemparan dicatat?"
+          },
+          {
+            "locator": "slide:6/shape:150",
+            "quote": "\tPILIHAN"
+          },
+          {
+            "locator": "slide:6/shape:151",
+            "quote": "\tA. 2 hasil"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 7,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Enumerating GG, GA, AG, and AA establishes four ordered outcomes.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Enumerating GG, GA, AG, and AA establishes four ordered outcomes.",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:7/shape:154",
+            "quote": "\tJawab secara sistematis"
+          },
+          {
+            "locator": "slide:7/shape:156",
+            "quote": "\tTEMA 1 - RUANG SAMPEL"
+          },
+          {
+            "locator": "slide:7/shape:161",
+            "quote": "\t1"
+          },
+          {
+            "locator": "slide:7/shape:162",
+            "quote": "\tLemparan pertama: G (gambar) atau A (angka)."
+          },
+          {
+            "locator": "slide:7/shape:165",
+            "quote": "\t2"
+          },
+          {
+            "locator": "slide:7/shape:166",
+            "quote": "\tSetiap pilihan pertama dapat diikuti G atau A."
+          },
+          {
+            "locator": "slide:7/shape:169",
+            "quote": "\t3"
+          },
+          {
+            "locator": "slide:7/shape:170",
+            "quote": "\tDaftar berurutan: GG, GA, AG, AA."
+          },
+          {
+            "locator": "slide:7/shape:173",
+            "quote": "\t4"
+          },
+          {
+            "locator": "slide:7/shape:174",
+            "quote": "\tMaka ada empat hasil, bukan tiga: GA berbeda dengan AG."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 8,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "A sample point is one outcome; the sample space contains all outcomes of the stated experiment.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "A sample point is one outcome; the sample space contains all outcomes of the stated experiment.",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:8/shape:177",
+            "quote": "\tDefinisi titik dan ruang sampel"
+          },
+          {
+            "locator": "slide:8/shape:179",
+            "quote": "\tTEMA 1  /  RUANG SAMPEL"
+          },
+          {
+            "locator": "slide:8/shape:183",
+            "quote": "\tMisalkan kita memiliki himpunan 𝛀 = {𝝎₁, 𝝎₂, …, 𝝎ₙ}"
+          },
+          {
+            "locator": "slide:8/shape:185",
+            "quote": "\tDEFINISI"
+          },
+          {
+            "locator": "slide:8/shape:186",
+            "quote": "\tTitik sampel 𝜔 adalah satu hasil spesifik dari suatu percobaan."
+          },
+          {
+            "locator": "slide:8/shape:188",
+            "quote": "\tKAPAN DIPAKAI ?"
+          },
+          {
+            "locator": "slide:8/shape:189",
+            "quote": "\tPertama tentukan “satu hasil” apa yang ingin diamati dan apakah urutan menjadi diperhatikan."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝛀 = {𝝎₁, 𝝎₂, …, 𝝎ₙ}",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:8/shape:183",
+            "quote": "𝛀 = {𝝎₁, 𝝎₂, …, 𝝎ₙ}"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝜔",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:8/shape:186",
+            "quote": "𝜔"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: Ω",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:8/shape:186",
+            "quote": "Ω"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 9,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Morning/evening weather produces four scenarios without implying equal probabilities.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Morning/evening weather produces four scenarios without implying equal probabilities.",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:9/shape:192",
+            "quote": "\tContoh: Dua kondisi cuaca"
+          },
+          {
+            "locator": "slide:9/shape:194",
+            "quote": "\tTEMA 1  /  RUANG SAMPEL"
+          },
+          {
+            "locator": "slide:9/shape:198",
+            "quote": "\tHASIL KEGIATAN"
+          },
+          {
+            "locator": "slide:9/shape:199",
+            "quote": "\tPagi hujan atau cerah dan sore hujan atau cerah. Jadi setiap pasangan dapat dicatat sebagai berikut,"
+          },
+          {
+            "locator": "slide:9/shape:201",
+            "quote": "\tMAKNA PRAKTIS"
+          },
+          {
+            "locator": "slide:9/shape:202",
+            "quote": "\tEmpat skenario membantu kita untuk menentukan perlengkapan yang perlu disiapkan. Empat skenario TIDAK berarti semuanya sama kemungkinannya."
+          },
+          {
+            "locator": "slide:9/shape:204",
+            "quote": "\tKeputusan: siapkan skenario, kemudian gunakan ramalan cuaca untuk menilai peluangnya."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: Ω= {𝐻𝐻, 𝐻𝐶, 𝐶𝐻, 𝐶𝐶}.",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:9/shape:199",
+            "quote": "Ω= {𝐻𝐻, 𝐻𝐶, 𝐶𝐻, 𝐶𝐶}."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 10,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "An event is a subset of the sample space; at-least-one-rain selects three of four weather outcomes.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "An event is a subset of the sample space; at-least-one-rain selects three of four weather outcomes.",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:10/shape:207",
+            "quote": "\tTitik sampel berbeda dengan kejadian"
+          },
+          {
+            "locator": "slide:10/shape:209",
+            "quote": "\tTEMA 1  /  RUANG SAMPEL"
+          },
+          {
+            "locator": "slide:10/shape:213",
+            "quote": "\tTITIK SAMPEL"
+          },
+          {
+            "locator": "slide:10/shape:214",
+            "quote": "\t“Pagi hujan, sore cerah” adalah satu hasil HC (satu titik sampel). Artinya titik sampel merupakan satu bagian dari suatu kejadian."
+          },
+          {
+            "locator": "slide:10/shape:216",
+            "quote": "\tKEJADIAN"
+          },
+          {
+            "locator": "slide:10/shape:217",
+            "quote": "\tMisalkan suatu kejadian adalah “Minimal satu kali hujan” maka himpunannya adalah {HH, HC, CH} (tiga titik sampel)."
+          },
+          {
+            "locator": "slide:10/shape:219",
+            "quote": "\tKejadian adalah SUBHIMPUNAN Ω; tidak harus terdiri atas satu hasil."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 11,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Preserve the full two-server sample space and separately label its at-least-one-UP event; the source reuses Omega for both.",
+    "issues": [
+      {
+        "original": "Ω= {𝑈𝑈, 𝑈𝐷, 𝐷𝑈}",
+        "locators": [
+          "slide:11/shape:232"
+        ],
+        "interpretation": "The stated experiment has Omega={UU,UD,DU,DD}. At least one UP selects {UU,UD,DU}, a proper event subset. Retain the reused source label as a variant and distinguish the event operationally; no reduced experiment is explicitly introduced.",
+        "disposition": "resolved-source-discrepancy",
+        "references": [
+          "openstax-events"
+        ]
+      }
+    ],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Preserve the full two-server sample space and separately label its at-least-one-UP event; the source reuses Omega for both.",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:11/shape:222",
+            "quote": "\tContoh TI: Dua server kampus"
+          },
+          {
+            "locator": "slide:11/shape:224",
+            "quote": "\tTEMA 1  /  RUANG SAMPEL"
+          },
+          {
+            "locator": "slide:11/shape:228",
+            "quote": "\tDIBUAT MODEL"
+          },
+          {
+            "locator": "slide:11/shape:229",
+            "quote": "\tServer A dan B masing-masing memiliki model “UP” atau “DOWN”. Maka ruang sampelnya berbentuk"
+          },
+          {
+            "locator": "slide:11/shape:231",
+            "quote": "\tMAKNANYA"
+          },
+          {
+            "locator": "slide:11/shape:232",
+            "quote": "\tMisalkan kejadian yang diperhatikan “paling sedikit satu server UP” ,  maka kita miliki"
+          },
+          {
+            "locator": "slide:11/shape:234",
+            "quote": "\tDaftar keadaan membantu merancang pengujian fail over; bukan bukti ketersediaan server."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: Ω = {𝑈𝑈, 𝑈𝐷, 𝐷𝑈, 𝐷𝐷}",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:11/shape:229",
+            "quote": "Ω = {𝑈𝑈, 𝑈𝐷, 𝐷𝑈, 𝐷𝐷}"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: Ω= {𝑈𝑈, 𝑈𝐷, 𝐷𝑈}",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:11/shape:232",
+            "quote": "Ω= {𝑈𝑈, 𝑈𝐷, 𝐷𝑈}"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "caveat",
+        "statement": "The stated experiment has Omega={UU,UD,DU,DD}. At least one UP selects {UU,UD,DU}, a proper event subset. Retain the reused source label as a variant and distinguish the event operationally; no reduced experiment is explicitly introduced.",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "VERIFIED",
+        "evidence": [
+          {
+            "locator": "slide:11/shape:232",
+            "quote": "Ω= {𝑈𝑈, 𝑈𝐷, 𝐷𝑈}"
+          }
+        ],
+        "references": [
+          "openstax-events"
+        ]
+      }
+    ]
+  },
+  {
+    "slide": 12,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Enumerate coin, application-toggle, and server-state configurations before counting constrained events.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "exercise",
+        "statement": "Enumerate coin, application-toggle, and server-state configurations before counting constrained events.",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:12/shape:279",
+            "quote": "\tLatihan Tema 1: Tiga soal"
+          },
+          {
+            "locator": "slide:12/shape:281",
+            "quote": "\tTEMA 1  /  RUANG SAMPEL"
+          },
+          {
+            "locator": "slide:12/shape:285",
+            "quote": "\tKERJAKAN BERPASANGAN"
+          },
+          {
+            "locator": "slide:12/shape:288",
+            "quote": "\t1"
+          },
+          {
+            "locator": "slide:12/shape:289",
+            "quote": "\tDua kali lempar koin. Tuliskan Ω dan hitung banyak titik sampelnya."
+          },
+          {
+            "locator": "slide:12/shape:292",
+            "quote": "\t2"
+          },
+          {
+            "locator": "slide:12/shape:293",
+            "quote": "\tTema gelap ON/OFF dan notifikasi ON/OFF. Berapa konfigurasi aplikasi?"
+          },
+          {
+            "locator": "slide:12/shape:296",
+            "quote": "\t3"
+          },
+          {
+            "locator": "slide:12/shape:297",
+            "quote": "\tTiga server masing-masing UP/DOWN. Berapa keadaan; berapa keadaan tepat satu DOWN?"
+          },
+          {
+            "locator": "slide:12/shape:298",
+            "quote": "\tTuliskan: apa yang dihitung, aturan yang dipakai, dan alasannya."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 13,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "The source solutions give four ordered coin outcomes, four toggle states, and eight three-server states with three single-DOWN states.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "The source solutions give four ordered coin outcomes, four toggle states, and eight three-server states with three single-DOWN states.",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:13/shape:301",
+            "quote": "\tPembahasan Tema 1"
+          },
+          {
+            "locator": "slide:13/shape:303",
+            "quote": "\tTEMA 1  /  RUANG SAMPEL"
+          },
+          {
+            "locator": "slide:13/shape:307",
+            "quote": "\t1."
+          },
+          {
+            "locator": "slide:13/shape:308",
+            "quote": "\tΩ = {GG, GA, AG, AA}. Karena urutan dicatat, n(Ω) = 4."
+          },
+          {
+            "locator": "slide:13/shape:310",
+            "quote": "\t2."
+          },
+          {
+            "locator": "slide:13/shape:311",
+            "quote": "\tΩ = {(ON,ON),(ON,OFF),(OFF,ON),(OFF,OFF)}; ada 4 konfigurasi."
+          },
+          {
+            "locator": "slide:13/shape:313",
+            "quote": "\t3."
+          },
+          {
+            "locator": "slide:13/shape:314",
+            "quote": "\tBanyak keadaan = 2³ = 8; tepat satu DOWN = {DUU, UDU, UUD}, yaitu 3."
+          },
+          {
+            "locator": "slide:13/shape:315",
+            "quote": "\tJangan hanya menghafal hasil: pahami model dan asumsi di belakangnya."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 14,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Three binary QA factors give eight outcomes; preserve omega1 and omega2 as local event labels and intersect their subsets.",
+    "issues": [
+      {
+        "original": "Ω",
+        "locators": [
+          "slide:14/shape:232"
+        ],
+        "interpretation": "The source explicitly calls indexed omega1/omega2 events, consistent with the user clarification. Preserve those labels. AI-derived solution: Omega={APW,APS,AOW,AOS,IPW,IPS,IOW,IOS}; omega1={AOW,AOS,IOW,IOS}; omega2={APW,AOW}; intersection={AOW}. These sets are derived here, not lecturer-provided solutions.",
+        "disposition": "resolved-supported",
+        "references": [
+          "openstax-events"
+        ]
+      }
+    ],
+    "limitations": [],
+    "units": [
+      {
+        "type": "exercise",
+        "statement": "Three binary QA factors give eight outcomes; preserve omega1 and omega2 as local event labels and intersect their subsets.",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:14/shape:222",
+            "quote": "\tLatihan Lanjutan"
+          },
+          {
+            "locator": "slide:14/shape:224",
+            "quote": "\tTEMA 1  /  RUANG SAMPEL"
+          },
+          {
+            "locator": "slide:14/shape:229",
+            "quote": "\tSebuah tim pengembang sedang membangun aplikasi akademik kampus. Sebelum aplikasi diluncurkan, tim Quality Assurance (QA) ingin menguji kombinasi kondisi penggunaan aplikasi. Terdapat tiga komponen pengujian, yaitu"
+          },
+          {
+            "locator": "slide:14/shape:231",
+            "quote": "\tPertanyaan"
+          },
+          {
+            "locator": "slide:14/shape:232",
+            "quote": "\tTentukan himpunan ruang sampel Ω."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: Ω",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:14/shape:232",
+            "quote": "Ω"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝜔",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:14/shape:232",
+            "quote": "𝜔"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝜔_(1)",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:14/shape:232",
+            "quote": "𝜔_(1)"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝜔_(1)",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:14/shape:232",
+            "quote": "𝜔_(1)"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝜔_(2)",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:14/shape:232",
+            "quote": "𝜔_(2)"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝜔_(2)",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:14/shape:232",
+            "quote": "𝜔_(2)"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝜔_(1)",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:14/shape:232",
+            "quote": "𝜔_(1)"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝜔_(2)",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:14/shape:232",
+            "quote": "𝜔_(2)"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "caveat",
+        "statement": "The source explicitly calls indexed omega1/omega2 events, consistent with the user clarification. Preserve those labels. AI-derived solution: Omega={APW,APS,AOW,AOS,IPW,IPS,IOW,IOS}; omega1={AOW,AOS,IOW,IOS}; omega2={APW,AOW}; intersection={AOW}. These sets are derived here, not lecturer-provided solutions.",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "VERIFIED",
+        "evidence": [
+          {
+            "locator": "slide:14/shape:232",
+            "quote": "Ω"
+          }
+        ],
+        "references": [
+          "openstax-events"
+        ]
+      }
+    ]
+  },
+  {
+    "slide": 15,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Eight logical QA states support a test plan, while real prioritization depends on risk and feasibility.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "caveat",
+        "statement": "Eight logical QA states support a test plan, while real prioritization depends on risk and feasibility.",
+        "concepts": [
+          "sample-space-events"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:15/shape:318",
+            "quote": "\tApa manfaat ruang sampel untuk TI?"
+          },
+          {
+            "locator": "slide:15/shape:320",
+            "quote": "\tTEMA 1  /  RUANG SAMPEL"
+          },
+          {
+            "locator": "slide:15/shape:324",
+            "quote": "\tIDE UTAMA"
+          },
+          {
+            "locator": "slide:15/shape:325",
+            "quote": "\t8 keadaan"
+          },
+          {
+            "locator": "slide:15/shape:326",
+            "quote": "\tTiga komponen pengujian menghasilkan delapan kondisi logis untuk diuji pada model sederhananya."
+          },
+          {
+            "locator": "slide:15/shape:328",
+            "quote": "\tKeputusan awal: buat daftar pengujian seluruh keadaan. Keputusan lanjutan: beri prioritas berdasarkan risiko dan ketergantungan nyata."
+          }
+        ],
+        "references": []
+      }
+    ]
+  }
+]

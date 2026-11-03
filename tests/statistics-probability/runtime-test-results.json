@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-18",
+  "automated_tests": {
+    "command": "python -m unittest discover -s tests/statistics-probability -p test_*.py -v",
+    "exit_code": 0,
+    "output": "test_changed_source_retains_previous_version (test_extract_pptx.ExtractionTests.test_changed_source_retains_previous_version) ... ok\ntest_corrupt_input_exits_cleanly (test_extract_pptx.ExtractionTests.test_corrupt_input_exits_cleanly) ... ok\ntest_equation_structure_fallback_and_unicode (test_extract_pptx.ExtractionTests.test_equation_structure_fallback_and_unicode) ... ok\ntest_image_only_is_unresolved_and_exported (test_extract_pptx.ExtractionTests.test_image_only_is_unresolved_and_exported) ... ok\ntest_invalid_relationship_publishes_nothing (test_extract_pptx.ExtractionTests.test_invalid_relationship_publishes_nothing) ... ok\ntest_physical_slide_order_comes_from_presentation (test_extract_pptx.ExtractionTests.test_physical_slide_order_comes_from_presentation) ... ok\ntest_repeat_import_and_tamper_protection_preserve_source (test_extract_pptx.ExtractionTests.test_repeat_import_and_tamper_protection_preserve_source) ... ok\ntest_table_chart_and_notes (test_extract_pptx.ExtractionTests.test_table_chart_and_notes) ... ok\ntest_cycle_and_missing_task_detection (test_ingest_course.WorkflowTests.test_cycle_and_missing_task_detection) ... ok\ntest_duplicate_filename_with_identical_bytes_is_deduplicated (test_ingest_course.WorkflowTests.test_duplicate_filename_with_identical_bytes_is_deduplicated) ... ok\ntest_end_to_end_partial_status_and_failed_calculation (test_ingest_course.WorkflowTests.test_end_to_end_partial_status_and_failed_calculation) ... ok\ntest_flag_coverage_is_required (test_ingest_course.WorkflowTests.test_flag_coverage_is_required) ... ok\ntest_modified_context_source_and_packets_are_rejected (test_ingest_course.WorkflowTests.test_modified_context_source_and_packets_are_rejected) ... ok\ntest_packet_supplies_context_and_prepare_is_idempotent (test_ingest_course.WorkflowTests.test_packet_supplies_context_and_prepare_is_idempotent) ... ok\ntest_report_provenance_coverage_and_reference_gates (test_ingest_course.WorkflowTests.test_report_provenance_coverage_and_reference_gates) ... ok\ntest_safe_calculation_rejects_code_and_unbounded_work (test_ingest_course.WorkflowTests.test_safe_calculation_rejects_code_and_unbounded_work) ... ok\ntest_bad_count_models_and_sizes (test_runtime_skills.RuntimeSkillsTests.test_bad_count_models_and_sizes) ... ok\ntest_count_models_against_exhaustive_spaces (test_runtime_skills.RuntimeSkillsTests.test_count_models_against_exhaustive_spaces) ... ok\ntest_cycles_and_unnecessary_nesting_rejected (test_runtime_skills.RuntimeSkillsTests.test_cycles_and_unnecessary_nesting_rejected) ... ok\ntest_invalid_or_nominal_values_rejected (test_runtime_skills.RuntimeSkillsTests.test_invalid_or_nominal_values_rejected) ... ok\ntest_missing_context_rejected (test_runtime_skills.RuntimeSkillsTests.test_missing_context_rejected) ... ok\ntest_modes_and_outlier_sensitive_center (test_runtime_skills.RuntimeSkillsTests.test_modes_and_outlier_sensitive_center) ... ok\ntest_modified_provenance_rejected (test_runtime_skills.RuntimeSkillsTests.test_modified_provenance_rejected) ... ok\ntest_package_and_provenance (test_runtime_skills.RuntimeSkillsTests.test_package_and_provenance) ... ok\ntest_population_scope_changes_denominator (test_runtime_skills.RuntimeSkillsTests.test_population_scope_changes_denominator) ... ok\ntest_sample_scope_and_original_units (test_runtime_skills.RuntimeSkillsTests.test_sample_scope_and_original_units) ... ok\ntest_source_revision_drift_rejected (test_runtime_skills.RuntimeSkillsTests.test_source_revision_drift_rejected) ... ok\ntest_undefined_sample_and_constant_data (test_runtime_skills.RuntimeSkillsTests.test_undefined_sample_and_constant_data) ... ok\n\n----------------------------------------------------------------------\nRan 28 tests in 0.854s\n\nOK\n"
+  },
+  "package_validation": {
+    "skills": 9,
+    "source_versions": 2,
+    "evidence_entries": 769,
+    "status": "passed"
+  },
+  "unchanged_import": {
+    "Statistika-1.pptx": "UNCHANGED",
+    "Statistika-2.pptx": "UNCHANGED"
+  },
+  "host": {
+    "version": "codex-cli 0.162.1",
+    "native_discovery": "unverified",
+    "probe": "app-server initialize, then process-local skills/extraRoots/set and skills/list planned; initialization failed before registration",
+    "actual_error": "Could not find home directory",
+    "file_bootstrap": "Root, routing index, shared references and all eight child files successfully read by active agent",
+    "global_config_changes": false
+  },
+  "creator_quick_validate": {
+    "exit_code": 1,
+    "error": "ModuleNotFoundError: No module named 'yaml'",
+    "fallback": "Dependency-free controlled-frontmatter validator passed all nine skills"
+  },
+  "independent_routing_accuracy": "unmeasured",
+  "package_sha256": {
+    "references/central-tendency-evidence.json": "d047499c969a11d629d29a49bb4b20ef4569dc1bf542a531b6422e9e3193d042",
+    "references/combinations-evidence.json": "bb7ec8eb092d0091bda45687b0e09144e0b134e2ea475e0fa773b6ab09755ee1",
+    "references/context-contract.md": "1f80930b7720a49784d6ff589ee381cb1bd37acb7f0b9bfeb8e3b1574cf9bd0b",
+    "references/counting-principles-evidence.json": "084b5efb62937dfc18ad6042261cd9fe694c3e90c6a6365317af8c37d0328f0f",
+    "references/course-conventions.md": "71db164037d1490cffa19e3c69319372dbd04d09dfcd73feaffd817d6f9a4ec6",
+    "references/data-dispersion-evidence.json": "667c65e8202e6aaa00a5917c7be55cd67b666627244b44803dc362a0079f0203",
+    "references/data-foundations-evidence.json": "fc5fefc94104126d6a98a84b91e56314e6571d7f18fa08cb1a13290938c25f50",
+    "references/data-presentation-evidence.json": "e8cfc2833342615ff7220c293cc2d02310485ce5495e76532351b61cc54eb549",
+    "references/learning-map.md": "2e5f763b2673637aba817deeb733cca2e9b500bedb027acf4e00fd9ae258b054",
+    "references/manifest.json": "3f7e9a11b527a77f4375d3f7ccd21e09226920c4f258ce662c561af45d0e93e4",
+    "references/permutations-evidence.json": "1905024461672449da614a282b0a75d80b63880a807b1eb63e7f6db06d6fdae8",
+    "references/routing-index.md": "5a5edb993ec2554e231d2717c033c6b48584017676d88b7a96e4251111881eae",
+    "references/sample-space-events-evidence.json": "7f4427fde007e0a295139d38b9a03134e8b2962230c9d62dcae78e97ef582270",
+    "references/source-notes.md": "2ec2641fbe76d7212e67675bdd06ea0a46a135ff3db3d7366ac9248311dd532a",
+    "references/sources.json": "1d65433abcf298434f61a803f10a2dc73a93d7a9946833d98d0233ac6e366ef3",
+    "scripts/compute.py": "f8927c96fed830fe78fde642a9a76fb60e1378729a28a09156be7f1f570cb5da",
+    "SKILL.md": "f6aa601ab5c9731114e231c58dc0043fc110f32a4b22150b63ff9b6c7e451aac",
+    "subskills/central-tendency/SKILL.md": "7c77fb64e1e37dfeba01da9ab9b062147c5c1e8c1e19c22634b403d9ec694345",
+    "subskills/combinations/SKILL.md": "fff723e0ad2bffcccf1c51fd5983a3a321c23730a2c1cdb7ce3783db285ebb7f",
+    "subskills/counting-principles/SKILL.md": "03e4db6639c68ee575e795f4211b9713bd162bf2c11b8b2f46b34a70a8dfe8dc",
+    "subskills/data-dispersion/SKILL.md": "a4d364e030bba88d80a38c37c4ee3b408755b0e7dcccc0fcf66c60952e22620d",
+    "subskills/data-foundations/SKILL.md": "67ddc002329b09f5d2027d343e1537ea2686d1508f020ada82a55c41a8f6a27b",
+    "subskills/data-presentation/SKILL.md": "c6209db1a59dadeffd78b8559117d784a3117b309e0352c1a9925fd86a3d542c",
+    "subskills/permutations/SKILL.md": "7de6ac1e5f116bfc04142b2657c216343ee0d1e0099012729a392e014dd27052",
+    "subskills/sample-space-events/SKILL.md": "2b86a4441e3336658a4933c038f5bef7aba03b6b1e141cb25b2d998fcd8cc3a0"
+  }
+}

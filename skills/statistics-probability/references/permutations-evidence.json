@@ -1,0 +1,917 @@
+[
+  {
+    "slide": 26,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Distinct roles make order meaningful; the motivating names are illustrative rather than a reusable mathematical identity.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "declarative",
+        "statement": "Distinct roles make order meaningful; the motivating names are illustrative rather than a reusable mathematical identity.",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:26/shape:512",
+            "quote": "\tKETIKA URUTAN PENTING"
+          },
+          {
+            "locator": "slide:26/shape:513",
+            "quote": "\tSTATISTIKA UNTUK KEPUTUSAN TI"
+          },
+          {
+            "locator": "slide:26/shape:516",
+            "quote": "\tTEMA 3  /  PERMUTASI"
+          },
+          {
+            "locator": "slide:26/shape:517",
+            "quote": "\tMemilih ketua dan wakil: apakah Ali–Herman sama dengan Budi–Ali?"
+          },
+          {
+            "locator": "slide:26/shape:518",
+            "quote": "\tJika peran atau urutan berbeda, pilihan menghasilkan pengaturan yang berbeda."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 27,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Selecting two distinct ordered officers from four people yields twelve arrangements.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "exercise",
+        "statement": "Selecting two distinct ordered officers from four people yields twelve arrangements.",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:27/shape:521",
+            "quote": "\tTebak-tebakan : Dua posisi"
+          },
+          {
+            "locator": "slide:27/shape:523",
+            "quote": "\tTEMA 3  /  PERMUTASI"
+          },
+          {
+            "locator": "slide:27/shape:527",
+            "quote": "\tTEBAK DULU"
+          },
+          {
+            "locator": "slide:27/shape:528",
+            "quote": "\tDari 4 mahasiswa A, B, C, D, dipilih seorang ketua dan seorang wakil. Tidak boleh orang yang sama. Ada berapa susunan?"
+          },
+          {
+            "locator": "slide:27/shape:530",
+            "quote": "\tPETUNJUK"
+          },
+          {
+            "locator": "slide:27/shape:531",
+            "quote": "\tA. 6 susunan"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 28,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Four choices followed by three remaining choices give twelve ordered officers.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Four choices followed by three remaining choices give twelve ordered officers.",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:28/shape:534",
+            "quote": "\tJelajahi jawabannya tanpa rumus matematis"
+          },
+          {
+            "locator": "slide:28/shape:536",
+            "quote": "\tTEMA 3  /  PERMUTASI"
+          },
+          {
+            "locator": "slide:28/shape:541",
+            "quote": "\t1"
+          },
+          {
+            "locator": "slide:28/shape:542",
+            "quote": "\tKetua A → 3 calon wakil: B, C, D."
+          },
+          {
+            "locator": "slide:28/shape:545",
+            "quote": "\t2"
+          },
+          {
+            "locator": "slide:28/shape:546",
+            "quote": "\tKetua B → 3 calon wakil: A, C, D."
+          },
+          {
+            "locator": "slide:28/shape:549",
+            "quote": "\t3"
+          },
+          {
+            "locator": "slide:28/shape:550",
+            "quote": "\tKetua C dan D pun masing-masing mempunyai 3 calon wakil."
+          },
+          {
+            "locator": "slide:28/shape:553",
+            "quote": "\t4"
+          },
+          {
+            "locator": "slide:28/shape:554",
+            "quote": "\tTotal 4 × 3 = 12 susunan; pasangan A–B ≠ B–A."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 29,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Factorial counts complete arrangements of distinct objects; zero factorial equals one.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "formula",
+        "statement": "Factorial counts complete arrangements of distinct objects; zero factorial equals one.",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:29/shape:572",
+            "quote": "\tFaktorial"
+          },
+          {
+            "locator": "slide:29/shape:574",
+            "quote": "\tTEMA 3  /  PERMUTASI"
+          },
+          {
+            "locator": "slide:29/shape:578",
+            "quote": "\t𝒏! =𝒏×𝒏−𝟏×𝒏−𝟐×…×𝟏"
+          },
+          {
+            "locator": "slide:29/shape:580",
+            "quote": "\tDEFINISI"
+          },
+          {
+            "locator": "slide:29/shape:581",
+            "quote": "\t𝑛! adalah perkalian bilangan bulat dari 𝑛 hingga 1; didefinisikan 0! = 1."
+          },
+          {
+            "locator": "slide:29/shape:583",
+            "quote": "\tBUKTI 𝟎!=𝟏"
+          },
+          {
+            "locator": "slide:29/shape:584",
+            "quote": "\tGunakan konsep rekursif"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝒏! =𝒏×(𝒏−𝟏)×(𝒏−𝟐)×…×𝟏",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:29/shape:578",
+            "quote": "𝒏! =𝒏×(𝒏−𝟏)×(𝒏−𝟐)×…×𝟏"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑛!",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:29/shape:581",
+            "quote": "𝑛!"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑛",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:29/shape:581",
+            "quote": "𝑛"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 0! = 1",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:29/shape:581",
+            "quote": "0! = 1"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝟎!=𝟏",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:29/shape:583",
+            "quote": "𝟎!=𝟏"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 30,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Ordered selection without replacement uses n!/(n-r)! for integer 0<=r<=n.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "formula",
+        "statement": "Ordered selection without replacement uses n!/(n-r)! for integer 0<=r<=n.",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:30/shape:557",
+            "quote": "\tDefinisi: permutasi tanpa pengulangan"
+          },
+          {
+            "locator": "slide:30/shape:559",
+            "quote": "\tTEMA 3  /  PERMUTASI"
+          },
+          {
+            "locator": "slide:30/shape:563",
+            "quote": "\t𝑷𝒏,𝒓= 𝒏!(𝒏−𝒓)!"
+          },
+          {
+            "locator": "slide:30/shape:565",
+            "quote": "\tDEFINISI"
+          },
+          {
+            "locator": "slide:30/shape:566",
+            "quote": "\tPermutasi 𝑟 dari 𝑛 objek berbeda ialah banyak susunan TERURUT dari 𝑟 objek yang dipilih tanpa pengulangan."
+          },
+          {
+            "locator": "slide:30/shape:568",
+            "quote": "\tKAPAN DIPAKAI?"
+          },
+          {
+            "locator": "slide:30/shape:569",
+            "quote": "\tKetika posisi, jabatan, prioritas, atau urutan pengerjaan menghasilkan hasil berbeda dan diperhatikan."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝑷(𝒏,𝒓)= (𝒏!)/((𝒏−𝒓)!)",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:30/shape:563",
+            "quote": "𝑷(𝒏,𝒓)= (𝒏!)/((𝒏−𝒓)!)"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑟",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:30/shape:566",
+            "quote": "𝑟"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑛",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:30/shape:566",
+            "quote": "𝑛"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑟",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:30/shape:566",
+            "quote": "𝑟"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 31,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "The repeated-member arrangement formula needs multiplicities summing to n; the source prose confuses it with partial selection of distinct objects.",
+    "issues": [
+      {
+        "original": "𝑟_(𝑛)",
+        "locators": [
+          "slide:31/shape:566"
+        ],
+        "interpretation": "The multiplicity-factorial denominator counts full arrangements of n objects with indistinguishable groups; multiplicities must sum to n. The prose instead describes partial selection of distinct objects. Preserve the variants and apply the full-multiset assumptions before using this formula.",
+        "disposition": "resolved-source-discrepancy",
+        "references": [
+          "openstax-counting"
+        ]
+      }
+    ],
+    "limitations": [],
+    "units": [
+      {
+        "type": "formula",
+        "statement": "The repeated-member arrangement formula needs multiplicities summing to n; the source prose confuses it with partial selection of distinct objects.",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:31/shape:557",
+            "quote": "\tDefinisi: permutasi dengan anggota sama"
+          },
+          {
+            "locator": "slide:31/shape:559",
+            "quote": "\tTEMA 3  /  PERMUTASI"
+          },
+          {
+            "locator": "slide:31/shape:563",
+            "quote": "\t𝑷𝒏,𝒓𝟏,…,𝒓𝒏= 𝒏!𝒓𝟏!…𝒓𝒏!"
+          },
+          {
+            "locator": "slide:31/shape:565",
+            "quote": "\tDEFINISI"
+          },
+          {
+            "locator": "slide:31/shape:566",
+            "quote": "\tPermutasi 𝑟𝑛 yang sama dari 𝑛 objek berbeda ialah banyak susunan TERURUT dari 𝑟 objek yang dipilih."
+          },
+          {
+            "locator": "slide:31/shape:568",
+            "quote": "\tKAPAN DIPAKAI?"
+          },
+          {
+            "locator": "slide:31/shape:569",
+            "quote": "\tKetika posisi, jabatan, prioritas, atau suatu hal memiliki kondisi yang sama."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "formula",
+        "statement": "Preserved source math/notation: 𝑷(𝒏,𝒓_(𝟏),…,𝒓_(𝒏))= (𝒏!)/(𝒓_(𝟏)!…𝒓_(𝒏)!)",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:31/shape:563",
+            "quote": "𝑷(𝒏,𝒓_(𝟏),…,𝒓_(𝒏))= (𝒏!)/(𝒓_(𝟏)!…𝒓_(𝒏)!)"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑟_(𝑛)",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:31/shape:566",
+            "quote": "𝑟_(𝑛)"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑛",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:31/shape:566",
+            "quote": "𝑛"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 𝑟",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:31/shape:566",
+            "quote": "𝑟"
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "caveat",
+        "statement": "The multiplicity-factorial denominator counts full arrangements of n objects with indistinguishable groups; multiplicities must sum to n. The prose instead describes partial selection of distinct objects. Preserve the variants and apply the full-multiset assumptions before using this formula.",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "VERIFIED",
+        "evidence": [
+          {
+            "locator": "slide:31/shape:566",
+            "quote": "𝑟_(𝑛)"
+          }
+        ],
+        "references": [
+          "openstax-counting"
+        ]
+      }
+    ]
+  },
+  {
+    "slide": 32,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Three distinct people in three distinct linear seats have six arrangements.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Three distinct people in three distinct linear seats have six arrangements.",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:32/shape:587",
+            "quote": "\tContoh harian: Duduk di kursi"
+          },
+          {
+            "locator": "slide:32/shape:589",
+            "quote": "\tTEMA 3  /  PERMUTASI"
+          },
+          {
+            "locator": "slide:32/shape:593",
+            "quote": "\t3 ORANG, 3 KURSI"
+          },
+          {
+            "locator": "slide:32/shape:594",
+            "quote": "\t6 urutan"
+          },
+          {
+            "locator": "slide:32/shape:595",
+            "quote": "\tA, B, C duduk pada 3 kursi berderet. Banyak susunan = 3! = 3×2×1 = 6."
+          },
+          {
+            "locator": "slide:32/shape:597",
+            "quote": "\tMakna: kursi pertama, kedua, dan ketiga dianggap berbeda. Jika hanya memilih siapa yang hadir, hasilnya bukan permutasi."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 33,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Three ordered podium places from five entrants give sixty arrangements.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Three ordered podium places from five entrants give sixty arrangements.",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:33/shape:600",
+            "quote": "\tContoh harian: Juara lomba"
+          },
+          {
+            "locator": "slide:33/shape:602",
+            "quote": "\tTEMA 3  /  PERMUTASI"
+          },
+          {
+            "locator": "slide:33/shape:606",
+            "quote": "\t5 PESERTA, 3 JUARA"
+          },
+          {
+            "locator": "slide:33/shape:607",
+            "quote": "\t60 urutan"
+          },
+          {
+            "locator": "slide:33/shape:608",
+            "quote": "\tJuara 1, 2, dan 3 dari lima peserta: P(5,3) = 5×4×3 = 60."
+          },
+          {
+            "locator": "slide:33/shape:610",
+            "quote": "\tMakna: urutan pemenang menentukan penghargaan. Itulah alasan metode “memilih tiga orang saja” tidak cukup."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 34,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Four deployments have 24 unrestricted orders and twelve when A must precede B; counts do not authorize unsafe release behavior.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Four deployments have 24 unrestricted orders and twelve when A must precede B; counts do not authorize unsafe release behavior.",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:34/shape:613",
+            "quote": "\tContoh TI: Urutan deployment"
+          },
+          {
+            "locator": "slide:34/shape:615",
+            "quote": "\tTEMA 3  /  PERMUTASI"
+          },
+          {
+            "locator": "slide:34/shape:619",
+            "quote": "\tMODEL MATEMATIS"
+          },
+          {
+            "locator": "slide:34/shape:620",
+            "quote": "\tEmpat perubahan kode A, B, C, D dapat dirilis dalam 4! = 24 urutan jika SEMUA urutan valid."
+          },
+          {
+            "locator": "slide:34/shape:622",
+            "quote": "\tMODEL NYATA"
+          },
+          {
+            "locator": "slide:34/shape:623",
+            "quote": "\tJika A harus mendahului B karena dependensi, tidak semua 24 urutan aman. Pakar harus mengikuti dependency tersebut."
+          },
+          {
+            "locator": "slide:34/shape:625",
+            "quote": "\tJumlah urutan mengungkap kompleksitas, bukan memberi izin mengabaikan prosedur rilis."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 35,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Six administrators assigned to two distinct incident roles give thirty arrangements.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "Six administrators assigned to two distinct incident roles give thirty arrangements.",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:35/shape:628",
+            "quote": "\tContoh TI: Penugasan petugas insiden"
+          },
+          {
+            "locator": "slide:35/shape:630",
+            "quote": "\tTEMA 3  /  PERMUTASI"
+          },
+          {
+            "locator": "slide:35/shape:634",
+            "quote": "\t6 ADMIN, 2 PERAN"
+          },
+          {
+            "locator": "slide:35/shape:635",
+            "quote": "\t30 susunan"
+          },
+          {
+            "locator": "slide:35/shape:636",
+            "quote": "\tPilih 1 penanggung jawab utama dan 1 cadangan dari 6 admin: P(6,2) = 6×5 = 30."
+          },
+          {
+            "locator": "slide:35/shape:638",
+            "quote": "\tMakna: membalik posisi utama dan cadangan menghasilkan rencana tugas yang berbeda."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 36,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Allowing repetition changes counting to powers; four-character codes over five letters yield 625 under the stated assumptions.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "exercise",
+        "statement": "Allowing repetition changes counting to powers; four-character codes over five letters yield 625 under the stated assumptions.",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:36/shape:641",
+            "quote": "\tKesalahan umum pada permutasi"
+          },
+          {
+            "locator": "slide:36/shape:643",
+            "quote": "\tTEMA 3  /  PERMUTASI"
+          },
+          {
+            "locator": "slide:36/shape:647",
+            "quote": "\tTANPA PENGULANGAN"
+          },
+          {
+            "locator": "slide:36/shape:648",
+            "quote": "\tP(4,2) = 4×3 = 12: orang yang sama tidak boleh mengisi dua posisi sekaligus."
+          },
+          {
+            "locator": "slide:36/shape:650",
+            "quote": "\tDENGAN PENGULANGAN"
+          },
+          {
+            "locator": "slide:36/shape:651",
+            "quote": "\tUntuk PIN dua digit, bila setiap digit 0–9 dapat dipakai lagi, hasilnya 10×10 = 100, berarti BUKAN P(10,2), akan tetapi 102."
+          },
+          {
+            "locator": "slide:36/shape:653",
+            "quote": "\tKondisi boleh/tidak boleh berulang harus tertulis."
+          }
+        ],
+        "references": []
+      },
+      {
+        "type": "instructor-convention",
+        "statement": "Preserved source math/notation: 10^(2)",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:36/shape:651",
+            "quote": "10^(2)"
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 37,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "Identify ordered roles before counting book arrangements, podium selections, and administrator assignments.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "exercise",
+        "statement": "Identify ordered roles before counting book arrangements, podium selections, and administrator assignments.",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:37/shape:656",
+            "quote": "\tLatihan Tema 3: Tiga soal"
+          },
+          {
+            "locator": "slide:37/shape:658",
+            "quote": "\tTEMA 3  /  PERMUTASI"
+          },
+          {
+            "locator": "slide:37/shape:662",
+            "quote": "\tKERJAKAN BERPASANGAN"
+          },
+          {
+            "locator": "slide:37/shape:665",
+            "quote": "\t1"
+          },
+          {
+            "locator": "slide:37/shape:666",
+            "quote": "\tEmpat buku berbeda disusun berderet. Berapa susunan?"
+          },
+          {
+            "locator": "slide:37/shape:669",
+            "quote": "\t2"
+          },
+          {
+            "locator": "slide:37/shape:670",
+            "quote": "\tDari sembilan peserta dipilih juara 1, 2, dan 3. Berapa banyak susunannya?"
+          },
+          {
+            "locator": "slide:37/shape:673",
+            "quote": "\t3"
+          },
+          {
+            "locator": "slide:37/shape:674",
+            "quote": "\tEnam admin, pilih admin utama dan cadangan (orang berbeda). Berapa susunan?"
+          },
+          {
+            "locator": "slide:37/shape:675",
+            "quote": "\tTuliskan: apa yang dihitung, aturan yang dipakai, dan alasannya."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 38,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "The source gives 4!=24 and leaves P(9,3) and P(6,2) symbolic; evaluated values are AI-derived supplements.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "worked-example",
+        "statement": "The source gives 4!=24 and leaves P(9,3) and P(6,2) symbolic; evaluated values are AI-derived supplements.",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:38/shape:678",
+            "quote": "\tPembahasan Tema 3"
+          },
+          {
+            "locator": "slide:38/shape:680",
+            "quote": "\tTEMA 3  /  PERMUTASI"
+          },
+          {
+            "locator": "slide:38/shape:684",
+            "quote": "\t1."
+          },
+          {
+            "locator": "slide:38/shape:685",
+            "quote": "\tMenata seluruh 4 buku: 4! = 4×3×2×1 = 24."
+          },
+          {
+            "locator": "slide:38/shape:687",
+            "quote": "\t2."
+          },
+          {
+            "locator": "slide:38/shape:688",
+            "quote": "\tPeran peringkat berbeda: P(9,3)."
+          },
+          {
+            "locator": "slide:38/shape:690",
+            "quote": "\t3."
+          },
+          {
+            "locator": "slide:38/shape:691",
+            "quote": "\tDua peran berbeda: P(6,2)."
+          },
+          {
+            "locator": "slide:38/shape:692",
+            "quote": "\tJangan hanya menghafal hasil: pahami model dan asumsi di belakangnya."
+          }
+        ],
+        "references": []
+      }
+    ]
+  },
+  {
+    "slide": 39,
+    "source_sha256": "ab7efabed9af6dec3f902abc3a0143f0301a0383fdce951490fd26e869d5ef1f",
+    "summary": "A pair with distinct roles differs from an unordered two-person team.",
+    "issues": [],
+    "limitations": [],
+    "units": [
+      {
+        "type": "caveat",
+        "statement": "A pair with distinct roles differs from an unordered two-person team.",
+        "concepts": [
+          "permutations"
+        ],
+        "evidence_label": "LECTURE",
+        "evidence": [
+          {
+            "locator": "slide:39/shape:695",
+            "quote": "\tJika urutan tidak penting, bagaimana?"
+          },
+          {
+            "locator": "slide:39/shape:697",
+            "quote": "\tTEMA 3  /  PERMUTASI"
+          },
+          {
+            "locator": "slide:39/shape:701",
+            "quote": "\tPEMBEDA UTAMA"
+          },
+          {
+            "locator": "slide:39/shape:702",
+            "quote": "\tA–B ≠ B–A"
+          },
+          {
+            "locator": "slide:39/shape:703",
+            "quote": "\tPada permutasi, urutan menentukan hasil. Pemimpin A–wakil B tidak sama dengan pemimpin B–wakil A."
+          },
+          {
+            "locator": "slide:39/shape:705",
+            "quote": "\tTetapi bila A dan B hanya ditunjuk menjadi satu tim tanpa posisi khusus, kita menghitung satu kelompok. Itu kombinasi bukan permutasi."
+          }
+        ],
+        "references": []
+      }
+    ]
+  }
+]
