@@ -50,8 +50,10 @@ Python 3 standard library only; rendering uses LibreOffice or a DeckCraft MCP ex
 ## Tests
 
 ```bash
-python -m unittest discover -s tests -p "test_*.py"
+python -m unittest discover -s tests/statistics-probability -p "test_*.py"
 ```
+
+The test directory name contains a hyphen, so it is not an importable package; point discovery at the directory itself rather than at `tests/`.
 
 27 of 28 tests pass in the development environment. `test_extract_pptx.py::test_corrupt_input_exits_cleanly` fails only because the bundled LibreOffice Python reports `sys.executable` as a directory, so the subprocess cannot be spawned; it is an environment artifact, not a pipeline regression.
 
